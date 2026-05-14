@@ -1,0 +1,20 @@
+{"query":"SP9137","category":"alarm","expected_alarm_codes":["SP9137"],"expected_pages":[615],"success_top_n":1,"top_k":5,"require_graph":true}
+{"query":"SP9137 DEVICE COMMUNICATION ERROR","category":"alarm","expected_alarm_codes":["SP9137"],"expected_pages":[615],"expected_keywords":["DEVICE","COMMUNICATION","ERROR"],"success_top_n":1,"top_k":5,"require_graph":true}
+{"query":"SP9136","category":"alarm","expected_alarm_codes":["SP9136"],"expected_pages":[615],"success_top_n":1,"top_k":5}
+{"query":"SP9138","category":"alarm","expected_alarm_codes":["SP9138"],"expected_pages":[615],"success_top_n":1,"top_k":5}
+{"query":"SP9139","category":"alarm","expected_alarm_codes":["SP9139"],"expected_pages":[615],"success_top_n":1,"top_k":5}
+{"query":"SV20","category":"alarm","expected_alarm_codes":["SV20"],"expected_pages":[524],"success_top_n":1,"top_k":5}
+{"query":"SV1025","category":"alarm","expected_alarm_codes":["SV1025"],"expected_pages":[587],"success_top_n":1,"top_k":5}
+{"query":"PS5524 无法通过复位操作清除报警","category":"alarm","expected_alarm_codes":["PS5524"],"expected_pages":[582],"success_top_n":1,"top_k":5,"require_graph":true}
+{"query":"主轴通信异常","category":"semantic","expected_pages":[613,615],"expected_keywords":["主轴","通信"],"success_top_n":5,"top_k":5,"require_graph":true}
+{"query":"FSSB LINE DATA ERROR","category":"semantic","expected_pages":[496],"expected_keywords":["FSSB","LINE","DATA","ERROR"],"success_top_n":5,"top_k":5,"require_graph":true}
+{"query":"Modbus communication paths","category":"semantic","expected_pages":[413,414],"expected_keywords":["MODBUS","COMMUNICATION"],"success_top_n":5,"top_k":5}
+{"query":"HSSB 接口板","category":"semantic","expected_pages":[251],"expected_keywords":["HSSB","接口板"],"success_top_n":5,"top_k":5}
+{"query":"USB 功能的维护","category":"semantic","expected_pages":[7,233],"expected_keywords":["USB"],"success_top_n":5,"top_k":5}
+{"query":"FSSB 设定画面","category":"procedure","expected_pages":[415],"expected_keywords":["FSSB","设定画面"],"expected_kb_types":["procedure"],"success_top_n":3,"top_k":5,"require_graph":true}
+{"query":"伺服参数的初始设定方法","category":"procedure","expected_pages":[415],"expected_keywords":["伺服参数","初始设定"],"expected_kb_types":["procedure"],"success_top_n":3,"top_k":5,"require_graph":true}
+{"query":"HSSB 接口板如何查看","category":"procedure","expected_pages":[251],"expected_keywords":["HSSB","接口板"],"expected_kb_types":["procedure"],"success_top_n":3,"top_k":5}
+{"query":"机床的安全注意事项","category":"safety","expected_pages":[3],"expected_keywords":["安全注意事项","机床"],"expected_kb_types":["warning"],"success_top_n":3,"top_k":5}
+{"query":"与更换作业有关的警告和注意","category":"safety","expected_pages":[3],"expected_keywords":["更换作业","警告","注意"],"expected_kb_types":["warning"],"success_top_n":3,"top_k":5}
+{"query":"与参数有关的警告和注意","category":"safety","expected_pages":[3],"expected_keywords":["参数","警告","注意"],"expected_kb_types":["warning"],"success_top_n":3,"top_k":5}
+{"query":"CNC 装置维修有哪些安全注意事项","category":"safety","expected_pages":[3],"expected_keywords":["CNC","安全","注意事项"],"expected_kb_types":["warning"],"success_top_n":3,"top_k":5}

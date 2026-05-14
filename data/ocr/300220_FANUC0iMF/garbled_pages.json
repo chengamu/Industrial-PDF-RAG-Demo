@@ -1,0 +1,28 @@
+{
+  "doc_id": "300220_FANUC0iMF",
+  "final_blocks_jsonl": "E:\\rag-demo\\data\\blocks\\300220_FANUC0iMF\\final_blocks.jsonl",
+  "garbled_page_count": 1,
+  "pages": [
+    {
+      "page_no": 341,
+      "score": 2.0,
+      "reasons": [
+        "question_marks"
+      ],
+      "stats": {
+        "total_chars": 1360,
+        "question_count": 4,
+        "suspect_hits": 0,
+        "ascii_letters": 388,
+        "digits": 128,
+        "cjk_chars": 500,
+        "cyrillic_chars": 0,
+        "empty_like": 0
+      },
+      "image_paths": [
+        "data/images/300220_FANUC0iMF/page_0341.png"
+      ],
+      "text_preview": "\nB-64605CM/01\n操作步骤\n将输入输出设备（存储卡、 USB 存储器）安装到 CNC 上。\n在 IPL 监控器上选择批量保存 / 恢复菜单。\n使用存储卡时，通过 MDI 键输入 \"1\" ，使用 USB 存储器，通过 MDI 键输入 \"11\" 。\nD4G1-0001\nCOPYRIGHT FANUC CORPORATION 2014\nBATCH DATA BACKUP/RESTORE MENU\nEND\nBATCH DATA BACKUP  (CNC -> MEMORY "
+    }
+  ]
+}

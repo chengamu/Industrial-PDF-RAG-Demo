@@ -1,0 +1,182 @@
+{
+  "doc_id": "300220_FANUC0iMF",
+  "retriever": "bm25",
+  "failed_count": 1,
+  "coverage_missing": [],
+  "failed_cases": [
+    {
+      "query": "PMC 梯形图",
+      "passed": false,
+      "retriever": "bm25",
+      "expected_alarm_codes": [],
+      "expected_pages": [],
+      "expected_keywords": [
+        "PMC",
+        "梯形图"
+      ],
+      "recall": {
+        "recall@1": false,
+        "recall@5": false,
+        "recall@10": false
+      },
+      "diagnostics": [],
+      "failure_reason": "keyword_miss",
+      "top1": {
+        "block_id": "300220_FANUC0iMF_r0611_0047",
+        "block_type": "text",
+        "page_no": 611,
+        "section_path": "",
+        "alarm_codes": [],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0611.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "refined",
+        "text_preview": "① 检查并修改梯形顺序 ② 更换切换用 MCC"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_r0611_0047",
+          "block_type": "text",
+          "page_no": 611,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0611.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "① 检查并修改梯形顺序 ② 更换切换用 MCC"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0611_0175",
+          "block_type": "text",
+          "page_no": 611,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0611.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "① 检查并修改梯形顺序 ② 更换切换用 MCC"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002311",
+          "block_type": "text",
+          "page_no": 555,
+          "section_path": "31 测量结束后，出现图 1.9.1.5 (f) 所示的波形画面。 > A.2.2  PMC",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0555.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "A.2.2  PMC"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0233_0021",
+          "block_type": "text",
+          "page_no": 233,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0233.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "PMC"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002316",
+          "block_type": "text",
+          "page_no": 555,
+          "section_path": "31 测量结束后，出现图 1.9.1.5 (f) 所示的波形画面。 > A.2.2  PMC",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0555.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "("
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002321",
+          "block_type": "text",
+          "page_no": 555,
+          "section_path": "31 测量结束后，出现图 1.9.1.5 (f) 所示的波形画面。 > A.2.2  PMC",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0555.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "("
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002313",
+          "block_type": "text",
+          "page_no": 555,
+          "section_path": "31 测量结束后，出现图 1.9.1.5 (f) 所示的波形画面。 > A.2.2  PMC",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0555.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "................................................................................................................................................. 587"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002323",
+          "block_type": "text",
+          "page_no": 555,
+          "section_path": "31 测量结束后，出现图 1.9.1.5 (f) 所示的波形画面。 > A.2.2  PMC",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0555.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": ")..................................................................................................................................................... 600"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002318",
+          "block_type": "text",
+          "page_no": 555,
+          "section_path": "31 测量结束后，出现图 1.9.1.5 (f) 所示的波形画面。 > A.2.2  PMC",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0555.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": ")............................................................................................................................................................. 592"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002314",
+          "block_type": "text",
+          "page_no": 555,
+          "section_path": "31 测量结束后，出现图 1.9.1.5 (f) 所示的波形画面。 > A.2.2  PMC",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0555.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "A.3"
+        }
+      ]
+    }
+  ]
+}

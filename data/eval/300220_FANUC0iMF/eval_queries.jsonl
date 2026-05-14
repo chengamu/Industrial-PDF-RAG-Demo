@@ -1,0 +1,20 @@
+{"query": "SP9137", "expected_alarm_codes": ["SP9137"], "expected_pages": [615], "top_k": 10}
+{"query": "SP9137 DEVICE COMMUNICATION ERROR", "expected_alarm_codes": ["SP9137"], "expected_pages": [615], "expected_keywords": ["DEVICE", "COMMUNICATION", "ERROR"], "top_k": 10}
+{"query": "SP9136", "expected_alarm_codes": ["SP9136"], "expected_pages": [615], "top_k": 10}
+{"query": "SP9138", "expected_alarm_codes": ["SP9138"], "expected_pages": [615], "top_k": 10}
+{"query": "SP9139", "expected_alarm_codes": ["SP9139"], "expected_pages": [615], "top_k": 10}
+{"query": "SV20", "expected_alarm_codes": ["SV20"], "expected_pages": [524], "top_k": 10}
+{"query": "SV1025", "expected_alarm_codes": ["SV1025"], "expected_pages": [587], "top_k": 10}
+{"query": "SYS_ALM134 FSSB LINE DATA ERROR", "expected_keywords": ["SYS", "ALM134", "FSSB", "DATA", "ERROR"], "expected_pages": [496], "top_k": 10}
+{"query": "参数写入开关处于打开", "expected_keywords": ["参数", "写入", "开关"], "expected_pages": [50, 582], "top_k": 10}
+{"query": "USB设备正在使用中", "expected_keywords": ["USB", "设备"], "top_k": 10}
+{"query": "主轴通信异常", "expected_keywords": ["主轴", "通信"], "top_k": 10}
+{"query": "安全速度0判断不一致", "expected_keywords": ["安全", "速度", "不一致"], "expected_pages": [448, 585, 586, 615], "top_k": 10}
+{"query": "串行传感器脉冲丢失", "expected_keywords": ["串行", "传感器", "脉冲"], "expected_pages": [448, 615], "top_k": 10}
+{"query": "电流极限设定错误", "expected_keywords": ["电流", "极限", "设定"], "expected_pages": [615], "top_k": 10}
+{"query": "FSSB LINE DATA ERROR", "expected_keywords": ["FSSB", "LINE", "DATA", "ERROR"], "expected_pages": [496], "top_k": 10}
+{"query": "Modbus communication paths", "expected_keywords": ["MODBUS", "COMMUNICATION", "PATHS"], "expected_pages": [413, 414], "top_k": 10}
+{"query": "PROFIBUS-DP 主控板", "expected_keywords": ["PROFIBUS", "主控板"], "top_k": 10}
+{"query": "DeviceNet 从控板", "expected_keywords": ["DEVICENET", "从控板"], "top_k": 10}
+{"query": "HSSB 接口板", "expected_keywords": ["HSSB", "接口板"], "top_k": 10}
+{"query": "PMC 梯形图", "expected_keywords": ["PMC", "梯形图"], "top_k": 10}

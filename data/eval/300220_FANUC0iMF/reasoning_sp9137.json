@@ -1,0 +1,227 @@
+{
+  "query": "SP9137 主轴通信异常怎么办？",
+  "parsed_query": {
+    "raw_query": "SP9137 主轴通信异常怎么办？",
+    "normalized_query": "SP9137 主轴通信异常怎么办?",
+    "alarm_codes": [
+      "SP9137"
+    ],
+    "param_codes": [],
+    "plc_addresses": [],
+    "entities": [
+      "主轴"
+    ],
+    "keywords": [
+      "主",
+      "轴",
+      "通",
+      "信",
+      "异",
+      "常",
+      "怎",
+      "么",
+      "办"
+    ],
+    "intent": "troubleshooting",
+    "query_type": "alarm_diagnosis",
+    "need_safety": false,
+    "expanded_queries": [
+      "SP9137 主轴通信异常怎么办？",
+      "SP9137 主轴通信异常怎么办?",
+      "SP9137",
+      "SP9137 主轴",
+      "SP9137 主 轴 通 信",
+      "主轴 主 轴 通 信",
+      "主轴"
+    ],
+    "vector_queries": [
+      "SP9137 主轴通信异常怎么办？",
+      "主轴 主 轴 通"
+    ]
+  },
+  "can_answer": false,
+  "reason": "缺少命中同报警码的手册证据",
+  "answer_type": "alarm_troubleshooting",
+  "confidence": 0.45,
+  "evidence_groups": {
+    "safety_warning": [
+      {
+        "kb_id": "300220_FANUC0iMF_r0613_0065__para_01",
+        "block_id": "300220_FANUC0iMF_r0613_0065",
+        "role": "safety_warning",
+        "page_no": 613,
+        "section_path": "",
+        "why": "safety_warning 证据",
+        "text": "检测出主轴放大器 (SP) 之间通讯 ( 连接器 JX4) 的异常",
+        "sources": [
+          "bm25"
+        ],
+        "alarm_codes": [],
+        "entities": [
+          "主轴",
+          "放大器"
+        ]
+      },
+      {
+        "kb_id": "300220_FANUC0iMF_r0613_0106__para_01",
+        "block_id": "300220_FANUC0iMF_r0613_0106",
+        "role": "safety_warning",
+        "page_no": 613,
+        "section_path": "",
+        "why": "safety_warning 证据",
+        "text": "检测出主轴放大器 (SP) 之间通讯 ( 连接器 JX4) 的异常",
+        "sources": [
+          "bm25"
+        ],
+        "alarm_codes": [],
+        "entities": [
+          "主轴",
+          "放大器"
+        ]
+      },
+      {
+        "kb_id": "300220_FANUC0iMF_r0615_0020__para_01",
+        "block_id": "300220_FANUC0iMF_r0615_0020",
+        "role": "safety_warning",
+        "page_no": 615,
+        "section_path": "",
+        "why": "safety_warning 证据",
+        "text": "主轴放大器 (SP) 内的装置通信异 常",
+        "sources": [
+          "bm25"
+        ],
+        "alarm_codes": [],
+        "entities": [
+          "主轴",
+          "放大器"
+        ]
+      },
+      {
+        "kb_id": "300220_FANUC0iMF_r0615_0191__para_01",
+        "block_id": "300220_FANUC0iMF_r0615_0191",
+        "role": "safety_warning",
+        "page_no": 615,
+        "section_path": "",
+        "why": "safety_warning 证据",
+        "text": "主轴放大器 (SP) 内的装置通信异 常",
+        "sources": [
+          "bm25"
+        ],
+        "alarm_codes": [],
+        "entities": [
+          "主轴",
+          "放大器"
+        ]
+      }
+    ]
+  },
+  "main_evidence": [
+    {
+      "kb_id": "300220_FANUC0iMF_r0613_0065__para_01",
+      "block_id": "300220_FANUC0iMF_r0613_0065",
+      "role": "safety_warning",
+      "page_no": 613,
+      "section_path": "",
+      "why": "命中维修安全提醒",
+      "text": "检测出主轴放大器 (SP) 之间通讯 ( 连接器 JX4) 的异常",
+      "sources": [
+        "bm25"
+      ],
+      "alarm_codes": [],
+      "entities": [
+        "主轴",
+        "放大器"
+      ]
+    },
+    {
+      "kb_id": "300220_FANUC0iMF_r0613_0106__para_01",
+      "block_id": "300220_FANUC0iMF_r0613_0106",
+      "role": "safety_warning",
+      "page_no": 613,
+      "section_path": "",
+      "why": "命中维修安全提醒",
+      "text": "检测出主轴放大器 (SP) 之间通讯 ( 连接器 JX4) 的异常",
+      "sources": [
+        "bm25"
+      ],
+      "alarm_codes": [],
+      "entities": [
+        "主轴",
+        "放大器"
+      ]
+    },
+    {
+      "kb_id": "300220_FANUC0iMF_r0615_0020__para_01",
+      "block_id": "300220_FANUC0iMF_r0615_0020",
+      "role": "safety_warning",
+      "page_no": 615,
+      "section_path": "",
+      "why": "命中维修安全提醒",
+      "text": "主轴放大器 (SP) 内的装置通信异 常",
+      "sources": [
+        "bm25"
+      ],
+      "alarm_codes": [],
+      "entities": [
+        "主轴",
+        "放大器"
+      ]
+    }
+  ],
+  "supporting_evidence": [],
+  "safety_evidence": [
+    {
+      "kb_id": "300220_FANUC0iMF_r0615_0191__para_01",
+      "block_id": "300220_FANUC0iMF_r0615_0191",
+      "role": "safety_warning",
+      "page_no": 615,
+      "section_path": "",
+      "why": "维修或更换相关安全提醒",
+      "text": "主轴放大器 (SP) 内的装置通信异 常",
+      "sources": [
+        "bm25"
+      ],
+      "alarm_codes": [],
+      "entities": [
+        "主轴",
+        "放大器"
+      ]
+    },
+    {
+      "kb_id": "300220_FANUC0iMF_r0613_0062__para_01",
+      "block_id": "300220_FANUC0iMF_r0613_0062",
+      "role": "safety_warning",
+      "page_no": 613,
+      "section_path": "",
+      "why": "维修或更换相关安全提醒",
+      "text": "主轴放大器间通讯错误",
+      "sources": [
+        "bm25"
+      ],
+      "alarm_codes": [],
+      "entities": [
+        "主轴",
+        "放大器"
+      ]
+    }
+  ],
+  "missing_info": [
+    "请提供 CNC 当前完整报警画面",
+    "请确认是否同时存在其他 SP/SV/DS/FSSB 报警",
+    "请提供主轴/伺服放大器 LED 显示状态",
+    "请确认报警发生时机",
+    "请确认近期是否更换过电机、放大器、电缆或参数"
+  ],
+  "answer_plan": {
+    "template": "alarm_troubleshooting",
+    "sections": [
+      "报警结论",
+      "报警优先级",
+      "每个报警的手册出处",
+      "可能原因",
+      "现场检查步骤",
+      "禁止操作/安全提醒",
+      "需要客户补充的信息"
+    ]
+  }
+}

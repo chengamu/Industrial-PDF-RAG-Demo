@@ -1,0 +1,188 @@
+{
+  "query": "SP9137 主轴通信异常怎么办？",
+  "parsed_query": {
+    "raw_query": "SP9137 主轴通信异常怎么办？",
+    "normalized_query": "SP9137 主轴通信异常怎么办?",
+    "alarm_codes": [
+      "SP9137"
+    ],
+    "param_codes": [],
+    "plc_addresses": [],
+    "entities": [
+      "主轴"
+    ],
+    "keywords": [
+      "主",
+      "轴",
+      "通",
+      "信",
+      "异",
+      "常",
+      "怎",
+      "么",
+      "办"
+    ],
+    "intent": "troubleshooting",
+    "query_type": "alarm_diagnosis",
+    "need_safety": false,
+    "expanded_queries": [
+      "SP9137 主轴通信异常怎么办？",
+      "SP9137 主轴通信异常怎么办?",
+      "SP9137",
+      "SP9137 主轴",
+      "SP9137 主 轴 通 信",
+      "主轴 主 轴 通 信",
+      "主轴"
+    ],
+    "vector_queries": [
+      "SP9137 主轴通信异常怎么办？",
+      "主轴 主 轴 通"
+    ]
+  },
+  "topk": [
+    {
+      "rank": 1,
+      "kb_id": "300220_FANUC0iMF_r0613_0065__para_01",
+      "block_id": "300220_FANUC0iMF_r0613_0065",
+      "rerank_score": 0.862115080903672,
+      "merged_score": 24.454646043569802,
+      "page_no": 613,
+      "section_path": "",
+      "text": "检测出主轴放大器 (SP) 之间通讯 ( 连接器 JX4) 的异常",
+      "image_paths": [
+        "data/images/300220_FANUC0iMF/page_0613.png"
+      ],
+      "sources": [
+        "bm25"
+      ],
+      "source_scores": {
+        "bm25": 24.454646043569802
+      },
+      "match_reason": [
+        "keyword_match"
+      ],
+      "entities": [
+        "主轴",
+        "放大器"
+      ],
+      "alarm_codes": []
+    },
+    {
+      "rank": 2,
+      "kb_id": "300220_FANUC0iMF_r0613_0106__para_01",
+      "block_id": "300220_FANUC0iMF_r0613_0106",
+      "rerank_score": 0.862115080903672,
+      "merged_score": 24.454646043569802,
+      "page_no": 613,
+      "section_path": "",
+      "text": "检测出主轴放大器 (SP) 之间通讯 ( 连接器 JX4) 的异常",
+      "image_paths": [
+        "data/images/300220_FANUC0iMF/page_0613.png"
+      ],
+      "sources": [
+        "bm25"
+      ],
+      "source_scores": {
+        "bm25": 24.454646043569802
+      },
+      "match_reason": [
+        "keyword_match"
+      ],
+      "entities": [
+        "主轴",
+        "放大器"
+      ],
+      "alarm_codes": []
+    },
+    {
+      "rank": 3,
+      "kb_id": "300220_FANUC0iMF_r0615_0020__para_01",
+      "block_id": "300220_FANUC0iMF_r0615_0020",
+      "rerank_score": 0.827321307482795,
+      "merged_score": 30.471620157555744,
+      "page_no": 615,
+      "section_path": "",
+      "text": "主轴放大器 (SP) 内的装置通信异 常",
+      "image_paths": [
+        "data/images/300220_FANUC0iMF/page_0615.png"
+      ],
+      "sources": [
+        "bm25"
+      ],
+      "source_scores": {
+        "bm25": 30.471620157555744
+      },
+      "match_reason": [
+        "keyword_match"
+      ],
+      "entities": [
+        "主轴",
+        "放大器"
+      ],
+      "alarm_codes": []
+    },
+    {
+      "rank": 4,
+      "kb_id": "300220_FANUC0iMF_r0615_0191__para_01",
+      "block_id": "300220_FANUC0iMF_r0615_0191",
+      "rerank_score": 0.827321307482795,
+      "merged_score": 30.471620157555744,
+      "page_no": 615,
+      "section_path": "",
+      "text": "主轴放大器 (SP) 内的装置通信异 常",
+      "image_paths": [
+        "data/images/300220_FANUC0iMF/page_0615.png"
+      ],
+      "sources": [
+        "bm25"
+      ],
+      "source_scores": {
+        "bm25": 30.471620157555744
+      },
+      "match_reason": [
+        "keyword_match"
+      ],
+      "entities": [
+        "主轴",
+        "放大器"
+      ],
+      "alarm_codes": []
+    },
+    {
+      "rank": 5,
+      "kb_id": "300220_FANUC0iMF_r0613_0062__para_01",
+      "block_id": "300220_FANUC0iMF_r0613_0062",
+      "rerank_score": 0.6919301304976949,
+      "merged_score": 24.9958872397593,
+      "page_no": 613,
+      "section_path": "",
+      "text": "主轴放大器间通讯错误",
+      "image_paths": [
+        "data/images/300220_FANUC0iMF/page_0613.png"
+      ],
+      "sources": [
+        "bm25"
+      ],
+      "source_scores": {
+        "bm25": 24.9958872397593
+      },
+      "match_reason": [
+        "keyword_match"
+      ],
+      "entities": [
+        "主轴",
+        "放大器"
+      ],
+      "alarm_codes": []
+    }
+  ],
+  "debug": {
+    "entity_hits": 20,
+    "bm25_hits": 24,
+    "vector_hits": 0,
+    "vector_skipped": true,
+    "graph_hits": 16,
+    "merged_candidates": 20,
+    "reranked": 5
+  }
+}

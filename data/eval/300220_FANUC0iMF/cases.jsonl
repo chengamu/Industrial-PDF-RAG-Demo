@@ -1,0 +1,3 @@
+{"query": "SP9137", "expected_alarm_codes": ["SP9137"], "expected_pages": [615], "top_k": 10}
+{"query": "SV20", "expected_alarm_codes": ["SV20"], "expected_pages": [524], "top_k": 10}
+{"query": "参数写入开关处于打开", "expected_keywords": ["参数", "写入", "开关"], "expected_pages": [50, 582], "top_k": 10}

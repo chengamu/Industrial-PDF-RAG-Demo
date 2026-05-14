@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+.hf_home/
+.env
+
+# Generated RAG artifacts
+data/raw/
+data/parsed/
+data/images/*
+!data/images/300220_FANUC0iMF/
+!data/images/300220_FANUC0iMF/*.png
+data/blocks/*
+!data/blocks/300220_FANUC0iMF/
+data/blocks/300220_FANUC0iMF/*
+!data/blocks/300220_FANUC0iMF/final_blocks_ocr_fixed.jsonl
+data/index/
+data/refine/

@@ -1,0 +1,3653 @@
+{
+  "doc_id": "300220_FANUC0iMF",
+  "retriever": "hybrid",
+  "case_count": 20,
+  "passed_count": 17,
+  "failed_count": 3,
+  "metrics": {
+    "recall@1": 0.85,
+    "recall@5": 0.85,
+    "recall@10": 0.85
+  },
+  "cases": [
+    {
+      "query": "SP9137",
+      "passed": true,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [
+        "SP9137"
+      ],
+      "expected_pages": [
+        615
+      ],
+      "expected_keywords": [],
+      "recall": {
+        "recall@1": true,
+        "recall@5": true,
+        "recall@10": true
+      },
+      "failure_reason": null,
+      "top1": {
+        "block_id": "300220_FANUC0iMF_r0615_0187",
+        "block_type": "alarm",
+        "page_no": 615,
+        "section_path": "",
+        "alarm_codes": [
+          "SP9137"
+        ],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0615.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "refined",
+        "text_preview": "SP9137"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0187",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9137"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9137"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0016",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9137"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9137"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0071",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9147"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9147"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0129",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9147"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9147"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0198",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9139"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9139"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0026",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9139"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9139"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0111",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9134"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9134"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0170",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9134"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9134"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0011",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9136"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9136"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0181",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9136"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9136"
+        }
+      ]
+    },
+    {
+      "query": "SP9137 DEVICE COMMUNICATION ERROR",
+      "passed": true,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [
+        "SP9137"
+      ],
+      "expected_pages": [
+        615
+      ],
+      "expected_keywords": [
+        "DEVICE",
+        "COMMUNICATION",
+        "ERROR"
+      ],
+      "recall": {
+        "recall@1": true,
+        "recall@5": true,
+        "recall@10": true
+      },
+      "failure_reason": null,
+      "top1": {
+        "block_id": "300220_FANUC0iMF_r0615_0187",
+        "block_type": "alarm",
+        "page_no": 615,
+        "section_path": "",
+        "alarm_codes": [
+          "SP9137"
+        ],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0615.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "refined",
+        "text_preview": "SP9137"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0187",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9137"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9137"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0016",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9137"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9137"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0017",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP DEVICE COMMUNICATION ERROR"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0188",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP DEVICE COMMUNICATION ERROR"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b003080",
+          "block_type": "text",
+          "page_no": 602,
+          "section_path": "A.1 报警列表（ CNC ）",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0602.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "ERROR"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002971",
+          "block_type": "text",
+          "page_no": 602,
+          "section_path": "A.1 报警列表（ CNC ）",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0602.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "ERROR"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b003000",
+          "block_type": "text",
+          "page_no": 602,
+          "section_path": "A.1 报警列表（ CNC ）",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0602.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "WN07 LADDER SP ERROR(STACK)"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002140",
+          "block_type": "text",
+          "page_no": 496,
+          "section_path": "4 确认 CNC 诊断功能",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0496.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "SYS_ALM134 FSSB LINE DATA ERROR"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002142",
+          "block_type": "text",
+          "page_no": 496,
+          "section_path": "4 确认 CNC 诊断功能",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0496.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "SYS_ALM135 FSSB LINE DATA ERROR"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002181",
+          "block_type": "text",
+          "page_no": 496,
+          "section_path": "4 确认 CNC 诊断功能",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0496.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "SYS_ALM154 SLAVE LOCAL ERROR NO.1 (AMPn ) /LINEx"
+        }
+      ]
+    },
+    {
+      "query": "SP9136",
+      "passed": true,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [
+        "SP9136"
+      ],
+      "expected_pages": [
+        615
+      ],
+      "expected_keywords": [],
+      "recall": {
+        "recall@1": true,
+        "recall@5": true,
+        "recall@10": true
+      },
+      "failure_reason": null,
+      "top1": {
+        "block_id": "300220_FANUC0iMF_r0615_0181",
+        "block_type": "alarm",
+        "page_no": 615,
+        "section_path": "",
+        "alarm_codes": [
+          "SP9136"
+        ],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0615.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "refined",
+        "text_preview": "SP9136"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0181",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9136"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9136"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0011",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9136"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9136"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0026",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9139"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9139"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0198",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9139"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9139"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0187",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9137"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9137"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0016",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9137"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9137"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0111",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9134"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9134"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0170",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9134"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9134"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0192",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9138"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9138"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0021",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9138"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9138"
+        }
+      ]
+    },
+    {
+      "query": "SP9138",
+      "passed": true,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [
+        "SP9138"
+      ],
+      "expected_pages": [
+        615
+      ],
+      "expected_keywords": [],
+      "recall": {
+        "recall@1": true,
+        "recall@5": true,
+        "recall@10": true
+      },
+      "failure_reason": null,
+      "top1": {
+        "block_id": "300220_FANUC0iMF_r0615_0021",
+        "block_type": "alarm",
+        "page_no": 615,
+        "section_path": "",
+        "alarm_codes": [
+          "SP9138"
+        ],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0615.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "refined",
+        "text_preview": "SP9138"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0021",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9138"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9138"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0192",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9138"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9138"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0198",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9139"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9139"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0026",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9139"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9139"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0016",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9137"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9137"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0187",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9137"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9137"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0181",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9136"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9136"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0011",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9136"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9136"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0046",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9143"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9143"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0220",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9143"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9143"
+        }
+      ]
+    },
+    {
+      "query": "SP9139",
+      "passed": true,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [
+        "SP9139"
+      ],
+      "expected_pages": [
+        615
+      ],
+      "expected_keywords": [],
+      "recall": {
+        "recall@1": true,
+        "recall@5": true,
+        "recall@10": true
+      },
+      "failure_reason": null,
+      "top1": {
+        "block_id": "300220_FANUC0iMF_r0615_0198",
+        "block_type": "alarm",
+        "page_no": 615,
+        "section_path": "",
+        "alarm_codes": [
+          "SP9139"
+        ],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0615.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "refined",
+        "text_preview": "SP9139"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0198",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9139"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9139"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0026",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9139"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9139"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0187",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9137"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9137"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0016",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9137"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9137"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0220",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9143"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9143"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0046",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9143"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9143"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0181",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9136"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9136"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0011",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9136"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9136"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0021",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9138"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9138"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0192",
+          "block_type": "alarm",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [
+            "SP9138"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP9138"
+        }
+      ]
+    },
+    {
+      "query": "SV20",
+      "passed": true,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [
+        "SV20"
+      ],
+      "expected_pages": [
+        524
+      ],
+      "expected_keywords": [],
+      "recall": {
+        "recall@1": true,
+        "recall@5": true,
+        "recall@10": true
+      },
+      "failure_reason": null,
+      "top1": {
+        "block_id": "300220_FANUC0iMF_r0524_0057",
+        "block_type": "alarm",
+        "page_no": 524,
+        "section_path": "",
+        "alarm_codes": [
+          "SV20"
+        ],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0524.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "refined",
+        "text_preview": "SV20-B"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_r0524_0057",
+          "block_type": "alarm",
+          "page_no": 524,
+          "section_path": "",
+          "alarm_codes": [
+            "SV20"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0524.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV20-B"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0524_0050",
+          "block_type": "alarm",
+          "page_no": 524,
+          "section_path": "",
+          "alarm_codes": [
+            "SV20"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0524.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV20/20-B"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0524_0049",
+          "block_type": "alarm",
+          "page_no": 524,
+          "section_path": "",
+          "alarm_codes": [
+            "SV80"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0524.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV80-B, Β I SV10HV-B, Β I SV20HV-B, Β I SV40HV-B"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0111",
+          "block_type": "alarm",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [
+            "SV1026"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV1026"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0034",
+          "block_type": "alarm",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [
+            "SV1026"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV1026"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0091",
+          "block_type": "alarm",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [
+            "SV1025"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV1025"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0031",
+          "block_type": "alarm",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [
+            "SV1025"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV1025"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0049",
+          "block_type": "alarm",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [
+            "SV1070"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV1070"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0071",
+          "block_type": "alarm",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [
+            "SV1070"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV1070"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0046",
+          "block_type": "alarm",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [
+            "SV1069"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV1069"
+        }
+      ]
+    },
+    {
+      "query": "SV1025",
+      "passed": true,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [
+        "SV1025"
+      ],
+      "expected_pages": [
+        587
+      ],
+      "expected_keywords": [],
+      "recall": {
+        "recall@1": true,
+        "recall@5": true,
+        "recall@10": true
+      },
+      "failure_reason": null,
+      "top1": {
+        "block_id": "300220_FANUC0iMF_r0587_0031",
+        "block_type": "alarm",
+        "page_no": 587,
+        "section_path": "",
+        "alarm_codes": [
+          "SV1025"
+        ],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0587.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "refined",
+        "text_preview": "SV1025"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0031",
+          "block_type": "alarm",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [
+            "SV1025"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV1025"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0091",
+          "block_type": "alarm",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [
+            "SV1025"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV1025"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0034",
+          "block_type": "alarm",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [
+            "SV1026"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV1026"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0111",
+          "block_type": "alarm",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [
+            "SV1026"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV1026"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0049",
+          "block_type": "alarm",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [
+            "SV1070"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV1070"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0071",
+          "block_type": "alarm",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [
+            "SV1070"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV1070"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0037",
+          "block_type": "alarm",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [
+            "SV1055"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV1055"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0114",
+          "block_type": "alarm",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [
+            "SV1055"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV1055"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0004",
+          "block_type": "alarm",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [
+            "SV1073"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV1073"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0081",
+          "block_type": "alarm",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [
+            "SV1073"
+          ],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SV1073"
+        }
+      ]
+    },
+    {
+      "query": "SYS_ALM134 FSSB LINE DATA ERROR",
+      "passed": true,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [],
+      "expected_pages": [
+        496
+      ],
+      "expected_keywords": [
+        "SYS",
+        "ALM134",
+        "FSSB",
+        "DATA",
+        "ERROR"
+      ],
+      "recall": {
+        "recall@1": true,
+        "recall@5": true,
+        "recall@10": true
+      },
+      "failure_reason": null,
+      "top1": {
+        "block_id": "300220_FANUC0iMF_b002140",
+        "block_type": "text",
+        "page_no": 496,
+        "section_path": "4 确认 CNC 诊断功能",
+        "alarm_codes": [],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0496.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "light",
+        "text_preview": "SYS_ALM134 FSSB LINE DATA ERROR"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_b002140",
+          "block_type": "text",
+          "page_no": 496,
+          "section_path": "4 确认 CNC 诊断功能",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0496.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "SYS_ALM134 FSSB LINE DATA ERROR"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002142",
+          "block_type": "text",
+          "page_no": 496,
+          "section_path": "4 确认 CNC 诊断功能",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0496.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "SYS_ALM135 FSSB LINE DATA ERROR"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002181",
+          "block_type": "text",
+          "page_no": 496,
+          "section_path": "4 确认 CNC 诊断功能",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0496.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "SYS_ALM154 SLAVE LOCAL ERROR NO.1 (AMPn ) /LINEx"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002183",
+          "block_type": "text",
+          "page_no": 496,
+          "section_path": "4 确认 CNC 诊断功能",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0496.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "SYS_ALM156 SLAVE LOCAL ERROR NO.2 (SDUn ) /LINEx"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002184",
+          "block_type": "text",
+          "page_no": 496,
+          "section_path": "4 确认 CNC 诊断功能",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0496.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "SYS_ALM157 SLAVE LOCAL ERROR NO.3 (AMPn ) /LINEx"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002185",
+          "block_type": "text",
+          "page_no": 496,
+          "section_path": "4 确认 CNC 诊断功能",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0496.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "SYS_ALM158 SLAVE LOCAL ERROR NO.3 (SDUn ) /LINEx"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002154",
+          "block_type": "text",
+          "page_no": 496,
+          "section_path": "4 确认 CNC 诊断功能",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0496.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "SYS_ALM139 FSSB OUT OF CORRECTION (MAIN <- SDUn) /LINEx"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002153",
+          "block_type": "text",
+          "page_no": 496,
+          "section_path": "4 确认 CNC 诊断功能",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0496.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "SYS_ALM138 FSSB OUT OF CORRECTION (MAIN <- AMPn) /LINEx"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002169",
+          "block_type": "text",
+          "page_no": 496,
+          "section_path": "4 确认 CNC 诊断功能",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0496.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "SYS_ALM148 FSSB OUT OF CORRECTION (SDUn -> AMPm) /LINEx"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002157",
+          "block_type": "text",
+          "page_no": 496,
+          "section_path": "4 确认 CNC 诊断功能",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0496.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "SYS_ALM142 FSSB OUT OF CORRECTION (SDUn <- AMPm) /LINEx"
+        }
+      ]
+    },
+    {
+      "query": "参数写入开关处于打开",
+      "passed": false,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [],
+      "expected_pages": [
+        50,
+        582
+      ],
+      "expected_keywords": [
+        "参数",
+        "写入",
+        "开关"
+      ],
+      "recall": {
+        "recall@1": false,
+        "recall@5": false,
+        "recall@10": false
+      },
+      "failure_reason": "page_miss",
+      "top1": {
+        "block_id": "300220_FANUC0iMF_b000051",
+        "block_type": "text",
+        "page_no": 3,
+        "section_path": "2 打开强电盘的门进行确认作业时",
+        "alarm_codes": [],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0003.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "light",
+        "text_preview": "2 打开强电盘的门进行确认作业时"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_b000051",
+          "block_type": "text",
+          "page_no": 3,
+          "section_path": "2 打开强电盘的门进行确认作业时",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0003.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "2 打开强电盘的门进行确认作业时"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0106",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "虽然 CNC 容许 FSSB 打开，但是 FSSB 并未打开。 确认 CNC 和放大器间的连接情况。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0027",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "虽然 CNC 容许 FSSB 打开，但是 FSSB 并未打开。 确认 CNC 和放大器间的连接情况。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0264_0050",
+          "block_type": "text",
+          "page_no": 264,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0264.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "悬吊开关盒"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b000056",
+          "block_type": "warning",
+          "page_no": 3,
+          "section_path": "2 打开强电盘的门进行确认作业时",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0003.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "突起物可能会导致作业人员受伤，作业时要引起注意。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0061_0065",
+          "block_type": "text",
+          "page_no": 61,
+          "section_path": "45 对于敞开中的轴有指令",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0061.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "45 对于敞开中的轴有指令"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b000710",
+          "block_type": "text",
+          "page_no": 61,
+          "section_path": "45 对于敞开中的轴有指令",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0061.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "45 对于敞开中的轴有指令"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0093",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "初始化时并没有使 FSSB 处于开的待用状态。可能是轴卡不良。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0015",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "初始化时并没有使 FSSB 处于开的待用状态。可能是轴卡不良。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b000055",
+          "block_type": "text",
+          "page_no": 3,
+          "section_path": "2 打开强电盘的门进行确认作业时",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0003.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "强电盘内有各类单元的角等突起物。"
+        }
+      ]
+    },
+    {
+      "query": "USB设备正在使用中",
+      "passed": false,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [],
+      "expected_pages": [],
+      "expected_keywords": [
+        "USB",
+        "设备"
+      ],
+      "recall": {
+        "recall@1": false,
+        "recall@5": false,
+        "recall@10": false
+      },
+      "failure_reason": "keyword_miss",
+      "top1": {
+        "block_id": "300220_FANUC0iMF_r0235_0027",
+        "block_type": "text",
+        "page_no": 235,
+        "section_path": "",
+        "alarm_codes": [],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0235.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "refined",
+        "text_preview": "USB"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_r0235_0027",
+          "block_type": "text",
+          "page_no": 235,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0235.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "USB"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0235_0026",
+          "block_type": "text",
+          "page_no": 235,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0235.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "USB(CD41P)"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0555_0112",
+          "block_type": "text",
+          "page_no": 555,
+          "section_path": "G 代码不正确",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0555.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "负号使用非法"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0555_0117",
+          "block_type": "text",
+          "page_no": 555,
+          "section_path": "G 代码不正确",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0555.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "在不允许使用小数点的地址中指定了小数点。 或者指定了 2 个或更 多个小数点。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0555_0116",
+          "block_type": "text",
+          "page_no": 555,
+          "section_path": "G 代码不正确",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0555.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "小数点使用非法"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0555_0101",
+          "block_type": "text",
+          "page_no": 555,
+          "section_path": "G 代码不正确",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0555.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "指定了不可使用的 G 代码。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0555_0123",
+          "block_type": "text",
+          "page_no": 555,
+          "section_path": "G 代码不正确",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0555.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "指定了不可使用的 G 代码。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0138_0032",
+          "block_type": "text",
+          "page_no": 138,
+          "section_path": "30 自动运行步骤 4 中准备的程序。",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0138.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "30 自动运行步骤 4 中准备的程序。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b000837",
+          "block_type": "text",
+          "page_no": 138,
+          "section_path": "30 自动运行步骤 4 中准备的程序。",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0138.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "30 自动运行步骤 4 中准备的程序。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0211_0004",
+          "block_type": "text",
+          "page_no": 211,
+          "section_path": "3 电压、电流值属于大致值，其中包含误差。需要正确的值时，请使用专用的测量器直接进行测量。",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0211.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "3 电压、电流值属于大致值，其中包含误差。需要正确的值时，请使用专用的测量器直接进行测量。"
+        }
+      ]
+    },
+    {
+      "query": "主轴通信异常",
+      "passed": true,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [],
+      "expected_pages": [],
+      "expected_keywords": [
+        "主轴",
+        "通信"
+      ],
+      "recall": {
+        "recall@1": true,
+        "recall@5": true,
+        "recall@10": true
+      },
+      "failure_reason": null,
+      "top1": {
+        "block_id": "300220_FANUC0iMF_r0615_0020",
+        "block_type": "text",
+        "page_no": 615,
+        "section_path": "",
+        "alarm_codes": [],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0615.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "refined",
+        "text_preview": "主轴放大器 (SP) 内的装置通信异 常"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0020",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "主轴放大器 (SP) 内的装置通信异 常"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0191",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "主轴放大器 (SP) 内的装置通信异 常"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0133",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "主轴切换回路异常"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0077",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "主轴切换回路异常"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b003394",
+          "block_type": "text",
+          "page_no": 670,
+          "section_path": "2 ．拆除",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0670.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "通信异常诊断显示"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0080",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "辅助模块 SW （ SSW ）的异常（主 轴切换）"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0136",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "辅助模块 SW （ SSW ）的异常（主 轴切换）"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0032",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "V--READY 通异常（初始化）"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0102",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "V--READY 通异常（初始化）"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0221",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "Cs 轴高速切换指令异常"
+        }
+      ]
+    },
+    {
+      "query": "安全速度0判断不一致",
+      "passed": true,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [],
+      "expected_pages": [
+        448,
+        585,
+        586,
+        615
+      ],
+      "expected_keywords": [
+        "安全",
+        "速度",
+        "不一致"
+      ],
+      "recall": {
+        "recall@1": true,
+        "recall@5": true,
+        "recall@10": true
+      },
+      "failure_reason": null,
+      "top1": {
+        "block_id": "300220_FANUC0iMF_r0615_0012",
+        "block_type": "text",
+        "page_no": 615,
+        "section_path": "",
+        "alarm_codes": [],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0615.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "refined",
+        "text_preview": "安全速度 0 判断不一致 （ SP ）"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0012",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "安全速度 0 判断不一致 （ SP ）"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0182",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "安全速度 0 判断不一致 （ SP ）"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0177",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "安全速度为 0 错误（ SP ）"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0007",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "安全速度为 0 错误（ SP ）"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0085",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "安全速度为 0 的错误（ SV ）"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0008",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "安全速度为 0 的错误（ SV ）"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0082",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "安全速度为 0 的错误（ CNC ）"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0005",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "安全速度为 0 的错误（ CNC ）"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0015",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "主轴放大器 (SP) 的速度零判定结 果与 CNC 的速度零判定结果不 一致"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0185",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "主轴放大器 (SP) 的速度零判定结 果与 CNC 的速度零判定结果不 一致"
+        }
+      ]
+    },
+    {
+      "query": "串行传感器脉冲丢失",
+      "passed": true,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [],
+      "expected_pages": [
+        448,
+        615
+      ],
+      "expected_keywords": [
+        "串行",
+        "传感器",
+        "脉冲"
+      ],
+      "recall": {
+        "recall@1": true,
+        "recall@5": true,
+        "recall@10": true
+      },
+      "failure_reason": null,
+      "top1": {
+        "block_id": "300220_FANUC0iMF_r0615_0199",
+        "block_type": "text",
+        "page_no": 615,
+        "section_path": "",
+        "alarm_codes": [],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0615.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "refined",
+        "text_preview": "串行传感器脉冲丢失"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0199",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "串行传感器脉冲丢失"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0027",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "串行传感器脉冲丢失"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0204",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "串行传感器计数丢失"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0032",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "串行传感器计数丢失"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0035",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "串行传感器的一转信号间的反馈 脉冲数在规定范围外"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0207",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "串行传感器的一转信号间的反馈 脉冲数在规定范围外"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0215",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "串行传感器异常"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0042",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "串行传感器异常"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0166",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "串行传感器数据传送错误"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0107",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "串行传感器数据传送错误"
+        }
+      ]
+    },
+    {
+      "query": "电流极限设定错误",
+      "passed": true,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [],
+      "expected_pages": [
+        615
+      ],
+      "expected_keywords": [
+        "电流",
+        "极限",
+        "设定"
+      ],
+      "recall": {
+        "recall@1": true,
+        "recall@5": true,
+        "recall@10": true
+      },
+      "failure_reason": null,
+      "top1": {
+        "block_id": "300220_FANUC0iMF_r0615_0193",
+        "block_type": "text",
+        "page_no": 615,
+        "section_path": "",
+        "alarm_codes": [],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0615.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "refined",
+        "text_preview": "电流极限设定错误"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0193",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "电流极限设定错误"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0022",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "电流极限设定错误"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0025",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "电流极限设定值在规定范围外"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0196",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "电流极限设定值在规定范围外"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b001089",
+          "block_type": "procedure",
+          "page_no": 211,
+          "section_path": "3 电压、电流值属于大致值，其中包含误差。需要正确的值时，请使用专用的测量器直接进行测量。 > 1.15.6 故障预测水平设定画面",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0211.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "步骤"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0211_0021",
+          "block_type": "procedure",
+          "page_no": 211,
+          "section_path": "3 电压、电流值属于大致值，其中包含误差。需要正确的值时，请使用专用的测量器直接进行测量。 > 1.15.6 故障预测水平设定画面",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0211.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "步骤"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b001074",
+          "block_type": "procedure",
+          "page_no": 211,
+          "section_path": "3 电压、电流值属于大致值，其中包含误差。需要正确的值时，请使用专用的测量器直接进行测量。 > 1.15.6 故障预测水平设定画面",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0211.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "1.15.6 故障预测水平设定画面"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0211_0005",
+          "block_type": "procedure",
+          "page_no": 211,
+          "section_path": "3 电压、电流值属于大致值，其中包含误差。需要正确的值时，请使用专用的测量器直接进行测量。 > 1.15.6 故障预测水平设定画面",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0211.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "1.15.6 故障预测水平设定画面"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0211_0013",
+          "block_type": "procedure",
+          "page_no": 211,
+          "section_path": "3 电压、电流值属于大致值，其中包含误差。需要正确的值时，请使用专用的测量器直接进行测量。 > 1.15.6 故障预测水平设定画面",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0211.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "1. 画面的显示和操作"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0211_0019",
+          "block_type": "warning",
+          "page_no": 211,
+          "section_path": "3 电压、电流值属于大致值，其中包含误差。需要正确的值时，请使用专用的测量器直接进行测量。 > 1.15.6 故障预测水平设定画面",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0211.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "可以通过本功能来监视这些值的增加，在机械故障和报警发生前发出警告。"
+        }
+      ]
+    },
+    {
+      "query": "FSSB LINE DATA ERROR",
+      "passed": true,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [],
+      "expected_pages": [
+        496
+      ],
+      "expected_keywords": [
+        "FSSB",
+        "LINE",
+        "DATA",
+        "ERROR"
+      ],
+      "recall": {
+        "recall@1": true,
+        "recall@5": true,
+        "recall@10": true
+      },
+      "failure_reason": null,
+      "top1": {
+        "block_id": "300220_FANUC0iMF_b002142",
+        "block_type": "text",
+        "page_no": 496,
+        "section_path": "4 确认 CNC 诊断功能",
+        "alarm_codes": [],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0496.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "light",
+        "text_preview": "SYS_ALM135 FSSB LINE DATA ERROR"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_b002142",
+          "block_type": "text",
+          "page_no": 496,
+          "section_path": "4 确认 CNC 诊断功能",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0496.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "SYS_ALM135 FSSB LINE DATA ERROR"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b002140",
+          "block_type": "text",
+          "page_no": 496,
+          "section_path": "4 确认 CNC 诊断功能",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0496.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "SYS_ALM134 FSSB LINE DATA ERROR"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0188",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP DEVICE COMMUNICATION ERROR"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0017",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP DEVICE COMMUNICATION ERROR"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0173_0019",
+          "block_type": "text",
+          "page_no": 173,
+          "section_path": "00123 N00000",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0173.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "ACCESS DATA ："
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b001848",
+          "block_type": "procedure",
+          "page_no": 415,
+          "section_path": "2 按下软键［适用］。 > 8.2 FSSB 设定画面",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0415.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "8.2 FSSB 设定画面"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0023",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "FSSB: 错误"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0101",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "FSSB: 错误"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0098",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "FSSB: 配置错误 ( 软件 )"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0041",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "FSSB: 配置错误 ( 软件 )"
+        }
+      ]
+    },
+    {
+      "query": "Modbus communication paths",
+      "passed": true,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [],
+      "expected_pages": [
+        413,
+        414
+      ],
+      "expected_keywords": [
+        "MODBUS",
+        "COMMUNICATION",
+        "PATHS"
+      ],
+      "recall": {
+        "recall@1": true,
+        "recall@5": true,
+        "recall@10": true
+      },
+      "failure_reason": null,
+      "top1": {
+        "block_id": "300220_FANUC0iMF_b001687",
+        "block_type": "text",
+        "page_no": 413,
+        "section_path": "2 按下软键［适用］。 > 7.2.6.5 从电脑进行设定时",
+        "alarm_codes": [],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0413.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "light",
+        "text_preview": "All Modbus communication paths are"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_b001687",
+          "block_type": "text",
+          "page_no": 413,
+          "section_path": "2 按下软键［适用］。 > 7.2.6.5 从电脑进行设定时",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0413.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "All Modbus communication paths are"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b001766",
+          "block_type": "text",
+          "page_no": 414,
+          "section_path": "2 按下软键［适用］。 > 7.2.6.5 从电脑进行设定时",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0414.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "All communication paths are busy"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0017",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP DEVICE COMMUNICATION ERROR"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0188",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "SP DEVICE COMMUNICATION ERROR"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b001680",
+          "block_type": "text",
+          "page_no": 413,
+          "section_path": "2 按下软键［适用］。 > 7.2.6.5 从电脑进行设定时",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0413.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "Modbus area of Modbus/TCP Server is"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b001733",
+          "block_type": "text",
+          "page_no": 413,
+          "section_path": "2 按下软键［适用］。 > 7.2.6.5 从电脑进行设定时",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0413.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "Modbus"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b001683",
+          "block_type": "text",
+          "page_no": 413,
+          "section_path": "2 按下软键［适用］。 > 7.2.6.5 从电脑进行设定时",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0413.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "Modbus"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b001724",
+          "block_type": "text",
+          "page_no": 413,
+          "section_path": "2 按下软键［适用］。 > 7.2.6.5 从电脑进行设定时",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0413.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "Modbus/TCP"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b001694",
+          "block_type": "text",
+          "page_no": 413,
+          "section_path": "2 按下软键［适用］。 > 7.2.6.5 从电脑进行设定时",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0413.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "Modbus/TCP"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b001730",
+          "block_type": "text",
+          "page_no": 413,
+          "section_path": "2 按下软键［适用］。 > 7.2.6.5 从电脑进行设定时",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0413.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "Modbus/TCP"
+        }
+      ]
+    },
+    {
+      "query": "PROFIBUS-DP 主控板",
+      "passed": true,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [],
+      "expected_pages": [],
+      "expected_keywords": [
+        "PROFIBUS",
+        "主控板"
+      ],
+      "recall": {
+        "recall@1": true,
+        "recall@5": true,
+        "recall@10": true
+      },
+      "failure_reason": null,
+      "top1": {
+        "block_id": "300220_FANUC0iMF_r0622_0011",
+        "block_type": "text",
+        "page_no": 622,
+        "section_path": "",
+        "alarm_codes": [],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0622.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "refined",
+        "text_preview": "PROFIBUS-DP 主控板"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0011",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "PROFIBUS-DP 主控板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0027",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "PROFIBUS-DP 主控板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0014",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "PROFIBUS-DP 从控板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0030",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "PROFIBUS-DP 从控板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0033",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "DeviceNet 主控板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0017",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "DeviceNet 主控板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0020",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "DeviceNet 从控板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0036",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "DeviceNet 从控板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0190",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "更换主轴放大器 (SP) 控制印刷电 路板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0615_0014",
+          "block_type": "text",
+          "page_no": 615,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0615.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "更换主轴放大器 (SP) 控制印刷电 路板"
+        }
+      ]
+    },
+    {
+      "query": "DeviceNet 从控板",
+      "passed": true,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [],
+      "expected_pages": [],
+      "expected_keywords": [
+        "DEVICENET",
+        "从控板"
+      ],
+      "recall": {
+        "recall@1": true,
+        "recall@5": true,
+        "recall@10": true
+      },
+      "failure_reason": null,
+      "top1": {
+        "block_id": "300220_FANUC0iMF_r0622_0036",
+        "block_type": "text",
+        "page_no": 622,
+        "section_path": "",
+        "alarm_codes": [],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0622.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "refined",
+        "text_preview": "DeviceNet 从控板"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0036",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "DeviceNet 从控板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0020",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "DeviceNet 从控板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0017",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "DeviceNet 主控板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0033",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "DeviceNet 主控板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0014",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "PROFIBUS-DP 从控板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0030",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "PROFIBUS-DP 从控板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0011",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "PROFIBUS-DP 主控板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0027",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "PROFIBUS-DP 主控板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0023",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "CC-Link 遥控设备站板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0040",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "CC-Link 遥控设备站板"
+        }
+      ]
+    },
+    {
+      "query": "HSSB 接口板",
+      "passed": true,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [],
+      "expected_pages": [],
+      "expected_keywords": [
+        "HSSB",
+        "接口板"
+      ],
+      "recall": {
+        "recall@1": true,
+        "recall@5": true,
+        "recall@10": true
+      },
+      "failure_reason": null,
+      "top1": {
+        "block_id": "300220_FANUC0iMF_r0622_0045",
+        "block_type": "text",
+        "page_no": 622,
+        "section_path": "",
+        "alarm_codes": [],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0622.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "refined",
+        "text_preview": "HSSB 接口板"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0045",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "HSSB 接口板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0005",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "HSSB 接口板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b003507",
+          "block_type": "text",
+          "page_no": 670,
+          "section_path": "2 ．拆除",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0670.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "接口板"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b001856",
+          "block_type": "warning",
+          "page_no": 415,
+          "section_path": "2 按下软键［适用］。 > 8.6 α i 伺服的警告接口",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0415.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "8.6 α i 伺服的警告接口"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0415_0020",
+          "block_type": "warning",
+          "page_no": 415,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0415.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "α i 伺服的警告接口 ..............................................................................................................................................................418"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0415_0015",
+          "block_type": "warning",
+          "page_no": 415,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0415.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "α i 伺服的警告接口 ..............................................................................................................................................................418"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b003626",
+          "block_type": "warning",
+          "page_no": 670,
+          "section_path": "2 ．拆除",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0670.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "警告接口"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0169",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "操作盘 I/O 模块 （带有 MPG 接口）"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0148",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "操作盘 I/O 模块 （带有 MPG 接口）"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0622_0172",
+          "block_type": "text",
+          "page_no": 622,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0622.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "强电盘 I/O 模块 （不带 MPG 接口）"
+        }
+      ]
+    },
+    {
+      "query": "PMC 梯形图",
+      "passed": false,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [],
+      "expected_pages": [],
+      "expected_keywords": [
+        "PMC",
+        "梯形图"
+      ],
+      "recall": {
+        "recall@1": false,
+        "recall@5": false,
+        "recall@10": false
+      },
+      "failure_reason": "keyword_miss",
+      "top1": {
+        "block_id": "300220_FANUC0iMF_b003050",
+        "block_type": "text",
+        "page_no": 602,
+        "section_path": "A.1 报警列表（ CNC ）",
+        "alarm_codes": [],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0602.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "light",
+        "text_preview": "倍率功能属于用来调试梯形图的功"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_b003050",
+          "block_type": "text",
+          "page_no": 602,
+          "section_path": "A.1 报警列表（ CNC ）",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0602.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "倍率功能属于用来调试梯形图的功"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b003045",
+          "block_type": "text",
+          "page_no": 602,
+          "section_path": "A.1 报警列表（ CNC ）",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0602.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "或者梯形"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0207_0006",
+          "block_type": "text",
+          "page_no": 207,
+          "section_path": "3 按下软键［ W. 图形］。",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0207.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "3 按下软键［ W. 图形］。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b000887",
+          "block_type": "text",
+          "page_no": 207,
+          "section_path": "3 按下软键［ W. 图形］。",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0207.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "3 按下软键［ W. 图形］。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b001093",
+          "block_type": "text",
+          "page_no": 211,
+          "section_path": "3 按下软键［ W. 图形］。",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0211.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "3 按下软键［ W. 图形］。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0211_0026",
+          "block_type": "text",
+          "page_no": 211,
+          "section_path": "3 按下软键［ W. 图形］。",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0211.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "3 按下软键［ W. 图形］。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0099_0044",
+          "block_type": "text",
+          "page_no": 99,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0099.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "图形1"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0099_0043",
+          "block_type": "text",
+          "page_no": 99,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0099.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "图形1"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0099_0047",
+          "block_type": "text",
+          "page_no": 99,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0099.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "图形1"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0099_0045",
+          "block_type": "text",
+          "page_no": 99,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0099.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "图形1"
+        }
+      ]
+    }
+  ]
+}

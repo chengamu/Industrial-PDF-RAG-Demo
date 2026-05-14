@@ -1,0 +1,239 @@
+{
+  "query": "SP9137",
+  "parsed_query": {
+    "raw_query": "SP9137",
+    "normalized_query": "SP9137",
+    "alarm_codes": [
+      "SP9137"
+    ],
+    "param_codes": [],
+    "plc_addresses": [],
+    "entities": [],
+    "keywords": [],
+    "intent": "troubleshooting",
+    "query_type": "alarm_diagnosis",
+    "need_safety": false,
+    "expanded_queries": [
+      "SP9137"
+    ],
+    "vector_queries": [
+      "SP9137"
+    ]
+  },
+  "can_answer": true,
+  "reason": "",
+  "answer_type": "alarm_troubleshooting",
+  "confidence": 0.9,
+  "evidence_groups": {
+    "alarm_definition": [
+      {
+        "kb_id": "300220_FANUC0iMF_r0615_0016__alarm_01",
+        "block_id": "300220_FANUC0iMF_r0615_0016",
+        "role": "alarm_definition",
+        "page_no": 615,
+        "section_path": "",
+        "why": "alarm_definition 证据",
+        "text": "SP9137",
+        "sources": [
+          "entity_match",
+          "bm25",
+          "graph"
+        ],
+        "alarm_codes": [
+          "SP9137"
+        ],
+        "entities": [
+          "SP9137"
+        ]
+      },
+      {
+        "kb_id": "300220_FANUC0iMF_r0615_0187__alarm_01",
+        "block_id": "300220_FANUC0iMF_r0615_0187",
+        "role": "alarm_definition",
+        "page_no": 615,
+        "section_path": "",
+        "why": "alarm_definition 证据",
+        "text": "SP9137",
+        "sources": [
+          "entity_match",
+          "bm25",
+          "graph"
+        ],
+        "alarm_codes": [
+          "SP9137"
+        ],
+        "entities": [
+          "SP9137"
+        ]
+      }
+    ],
+    "inspection_step": [
+      {
+        "kb_id": "300220_FANUC0iMF_r0615_0014__para_01",
+        "block_id": "300220_FANUC0iMF_r0615_0014",
+        "role": "inspection_step",
+        "page_no": 615,
+        "section_path": "",
+        "why": "inspection_step 证据",
+        "text": "更换主轴放大器 (SP) 控制印刷电 路板",
+        "sources": [
+          "graph"
+        ],
+        "alarm_codes": [],
+        "entities": [
+          "主轴",
+          "放大器"
+        ]
+      },
+      {
+        "kb_id": "300220_FANUC0iMF_r0615_0190__para_01",
+        "block_id": "300220_FANUC0iMF_r0615_0190",
+        "role": "inspection_step",
+        "page_no": 615,
+        "section_path": "",
+        "why": "inspection_step 证据",
+        "text": "更换主轴放大器 (SP) 控制印刷电 路板",
+        "sources": [
+          "graph"
+        ],
+        "alarm_codes": [],
+        "entities": [
+          "主轴",
+          "放大器"
+        ]
+      },
+      {
+        "kb_id": "300220_FANUC0iMF_r0615_0019__para_01",
+        "block_id": "300220_FANUC0iMF_r0615_0019",
+        "role": "inspection_step",
+        "page_no": 615,
+        "section_path": "",
+        "why": "inspection_step 证据",
+        "text": "更换主轴放大器 (SP) 控制印刷电 路板",
+        "sources": [
+          "graph"
+        ],
+        "alarm_codes": [],
+        "entities": [
+          "主轴",
+          "放大器"
+        ]
+      }
+    ]
+  },
+  "main_evidence": [
+    {
+      "kb_id": "300220_FANUC0iMF_r0615_0016__alarm_01",
+      "block_id": "300220_FANUC0iMF_r0615_0016",
+      "role": "alarm_definition",
+      "page_no": 615,
+      "section_path": "",
+      "why": "命中报警码 SP9137",
+      "text": "SP9137",
+      "sources": [
+        "entity_match",
+        "bm25",
+        "graph"
+      ],
+      "alarm_codes": [
+        "SP9137"
+      ],
+      "entities": [
+        "SP9137"
+      ]
+    },
+    {
+      "kb_id": "300220_FANUC0iMF_r0615_0187__alarm_01",
+      "block_id": "300220_FANUC0iMF_r0615_0187",
+      "role": "alarm_definition",
+      "page_no": 615,
+      "section_path": "",
+      "why": "命中报警码 SP9137",
+      "text": "SP9137",
+      "sources": [
+        "entity_match",
+        "bm25",
+        "graph"
+      ],
+      "alarm_codes": [
+        "SP9137"
+      ],
+      "entities": [
+        "SP9137"
+      ]
+    },
+    {
+      "kb_id": "300220_FANUC0iMF_r0615_0014__para_01",
+      "block_id": "300220_FANUC0iMF_r0615_0014",
+      "role": "inspection_step",
+      "page_no": 615,
+      "section_path": "",
+      "why": "命中现场检查或操作步骤",
+      "text": "更换主轴放大器 (SP) 控制印刷电 路板",
+      "sources": [
+        "graph"
+      ],
+      "alarm_codes": [],
+      "entities": [
+        "主轴",
+        "放大器"
+      ]
+    }
+  ],
+  "supporting_evidence": [
+    {
+      "kb_id": "300220_FANUC0iMF_r0615_0190__para_01",
+      "block_id": "300220_FANUC0iMF_r0615_0190",
+      "role": "inspection_step",
+      "page_no": 615,
+      "section_path": "",
+      "why": "Graph 扩展得到的辅助证据",
+      "text": "更换主轴放大器 (SP) 控制印刷电 路板",
+      "sources": [
+        "graph"
+      ],
+      "alarm_codes": [],
+      "entities": [
+        "主轴",
+        "放大器"
+      ]
+    },
+    {
+      "kb_id": "300220_FANUC0iMF_r0615_0019__para_01",
+      "block_id": "300220_FANUC0iMF_r0615_0019",
+      "role": "inspection_step",
+      "page_no": 615,
+      "section_path": "",
+      "why": "Graph 扩展得到的辅助证据",
+      "text": "更换主轴放大器 (SP) 控制印刷电 路板",
+      "sources": [
+        "graph"
+      ],
+      "alarm_codes": [],
+      "entities": [
+        "主轴",
+        "放大器"
+      ]
+    }
+  ],
+  "safety_evidence": [],
+  "missing_info": [
+    "请提供 CNC 当前完整报警画面",
+    "请确认是否同时存在其他 SP/SV/DS/FSSB 报警",
+    "请提供主轴/伺服放大器 LED 显示状态",
+    "请确认报警发生时机",
+    "请确认近期是否更换过电机、放大器、电缆或参数"
+  ],
+  "answer_plan": {
+    "template": "alarm_troubleshooting",
+    "sections": [
+      "报警结论",
+      "报警优先级",
+      "每个报警的手册出处",
+      "可能原因",
+      "现场检查步骤",
+      "禁止操作/安全提醒",
+      "需要客户补充的信息"
+    ]
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "doc_id": "300220_FANUC0iMF",
+  "retriever": "hybrid",
+  "failed_count": 3,
+  "failed_cases": [
+    {
+      "query": "参数写入开关处于打开",
+      "passed": false,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [],
+      "expected_pages": [
+        50,
+        582
+      ],
+      "expected_keywords": [
+        "参数",
+        "写入",
+        "开关"
+      ],
+      "recall": {
+        "recall@1": false,
+        "recall@5": false,
+        "recall@10": false
+      },
+      "failure_reason": "page_miss",
+      "top1": {
+        "block_id": "300220_FANUC0iMF_b000051",
+        "block_type": "text",
+        "page_no": 3,
+        "section_path": "2 打开强电盘的门进行确认作业时",
+        "alarm_codes": [],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0003.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "light",
+        "text_preview": "2 打开强电盘的门进行确认作业时"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_b000051",
+          "block_type": "text",
+          "page_no": 3,
+          "section_path": "2 打开强电盘的门进行确认作业时",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0003.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "2 打开强电盘的门进行确认作业时"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0106",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "虽然 CNC 容许 FSSB 打开，但是 FSSB 并未打开。 确认 CNC 和放大器间的连接情况。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0027",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "虽然 CNC 容许 FSSB 打开，但是 FSSB 并未打开。 确认 CNC 和放大器间的连接情况。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0264_0050",
+          "block_type": "text",
+          "page_no": 264,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0264.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "悬吊开关盒"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b000056",
+          "block_type": "warning",
+          "page_no": 3,
+          "section_path": "2 打开强电盘的门进行确认作业时",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0003.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "突起物可能会导致作业人员受伤，作业时要引起注意。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0061_0065",
+          "block_type": "text",
+          "page_no": 61,
+          "section_path": "45 对于敞开中的轴有指令",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0061.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "45 对于敞开中的轴有指令"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b000710",
+          "block_type": "text",
+          "page_no": 61,
+          "section_path": "45 对于敞开中的轴有指令",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0061.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "45 对于敞开中的轴有指令"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0093",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "初始化时并没有使 FSSB 处于开的待用状态。可能是轴卡不良。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0587_0015",
+          "block_type": "text",
+          "page_no": 587,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0587.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "初始化时并没有使 FSSB 处于开的待用状态。可能是轴卡不良。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b000055",
+          "block_type": "text",
+          "page_no": 3,
+          "section_path": "2 打开强电盘的门进行确认作业时",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0003.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "强电盘内有各类单元的角等突起物。"
+        }
+      ]
+    },
+    {
+      "query": "USB设备正在使用中",
+      "passed": false,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [],
+      "expected_pages": [],
+      "expected_keywords": [
+        "USB",
+        "设备"
+      ],
+      "recall": {
+        "recall@1": false,
+        "recall@5": false,
+        "recall@10": false
+      },
+      "failure_reason": "keyword_miss",
+      "top1": {
+        "block_id": "300220_FANUC0iMF_r0235_0027",
+        "block_type": "text",
+        "page_no": 235,
+        "section_path": "",
+        "alarm_codes": [],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0235.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "refined",
+        "text_preview": "USB"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_r0235_0027",
+          "block_type": "text",
+          "page_no": 235,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0235.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "USB"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0235_0026",
+          "block_type": "text",
+          "page_no": 235,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0235.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "USB(CD41P)"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0555_0112",
+          "block_type": "text",
+          "page_no": 555,
+          "section_path": "G 代码不正确",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0555.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "负号使用非法"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0555_0117",
+          "block_type": "text",
+          "page_no": 555,
+          "section_path": "G 代码不正确",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0555.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "在不允许使用小数点的地址中指定了小数点。 或者指定了 2 个或更 多个小数点。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0555_0116",
+          "block_type": "text",
+          "page_no": 555,
+          "section_path": "G 代码不正确",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0555.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "小数点使用非法"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0555_0101",
+          "block_type": "text",
+          "page_no": 555,
+          "section_path": "G 代码不正确",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0555.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "指定了不可使用的 G 代码。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0555_0123",
+          "block_type": "text",
+          "page_no": 555,
+          "section_path": "G 代码不正确",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0555.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "指定了不可使用的 G 代码。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0138_0032",
+          "block_type": "text",
+          "page_no": 138,
+          "section_path": "30 自动运行步骤 4 中准备的程序。",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0138.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "30 自动运行步骤 4 中准备的程序。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b000837",
+          "block_type": "text",
+          "page_no": 138,
+          "section_path": "30 自动运行步骤 4 中准备的程序。",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0138.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "30 自动运行步骤 4 中准备的程序。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0211_0004",
+          "block_type": "text",
+          "page_no": 211,
+          "section_path": "3 电压、电流值属于大致值，其中包含误差。需要正确的值时，请使用专用的测量器直接进行测量。",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0211.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "3 电压、电流值属于大致值，其中包含误差。需要正确的值时，请使用专用的测量器直接进行测量。"
+        }
+      ]
+    },
+    {
+      "query": "PMC 梯形图",
+      "passed": false,
+      "retriever": "hybrid",
+      "expected_alarm_codes": [],
+      "expected_pages": [],
+      "expected_keywords": [
+        "PMC",
+        "梯形图"
+      ],
+      "recall": {
+        "recall@1": false,
+        "recall@5": false,
+        "recall@10": false
+      },
+      "failure_reason": "keyword_miss",
+      "top1": {
+        "block_id": "300220_FANUC0iMF_b003050",
+        "block_type": "text",
+        "page_no": 602,
+        "section_path": "A.1 报警列表（ CNC ）",
+        "alarm_codes": [],
+        "image_paths": [
+          "data/images/300220_FANUC0iMF/page_0602.png"
+        ],
+        "needs_refine": false,
+        "refine_reason": [],
+        "parse_level": "light",
+        "text_preview": "倍率功能属于用来调试梯形图的功"
+      },
+      "top10": [
+        {
+          "block_id": "300220_FANUC0iMF_b003050",
+          "block_type": "text",
+          "page_no": 602,
+          "section_path": "A.1 报警列表（ CNC ）",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0602.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "倍率功能属于用来调试梯形图的功"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b003045",
+          "block_type": "text",
+          "page_no": 602,
+          "section_path": "A.1 报警列表（ CNC ）",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0602.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "或者梯形"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0207_0006",
+          "block_type": "text",
+          "page_no": 207,
+          "section_path": "3 按下软键［ W. 图形］。",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0207.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "3 按下软键［ W. 图形］。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b000887",
+          "block_type": "text",
+          "page_no": 207,
+          "section_path": "3 按下软键［ W. 图形］。",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0207.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "3 按下软键［ W. 图形］。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_b001093",
+          "block_type": "text",
+          "page_no": 211,
+          "section_path": "3 按下软键［ W. 图形］。",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0211.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "light",
+          "text_preview": "3 按下软键［ W. 图形］。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0211_0026",
+          "block_type": "text",
+          "page_no": 211,
+          "section_path": "3 按下软键［ W. 图形］。",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0211.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "3 按下软键［ W. 图形］。"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0099_0044",
+          "block_type": "text",
+          "page_no": 99,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0099.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "图形1"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0099_0043",
+          "block_type": "text",
+          "page_no": 99,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0099.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "图形1"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0099_0047",
+          "block_type": "text",
+          "page_no": 99,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0099.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "图形1"
+        },
+        {
+          "block_id": "300220_FANUC0iMF_r0099_0045",
+          "block_type": "text",
+          "page_no": 99,
+          "section_path": "",
+          "alarm_codes": [],
+          "image_paths": [
+            "data/images/300220_FANUC0iMF/page_0099.png"
+          ],
+          "needs_refine": false,
+          "refine_reason": [],
+          "parse_level": "refined",
+          "text_preview": "图形1"
+        }
+      ]
+    }
+  ]
+}

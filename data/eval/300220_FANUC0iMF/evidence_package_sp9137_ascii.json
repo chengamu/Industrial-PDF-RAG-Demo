@@ -1,0 +1,196 @@
+{
+  "query": "SP9137",
+  "parsed_query": {
+    "raw_query": "SP9137",
+    "normalized_query": "SP9137",
+    "alarm_codes": [
+      "SP9137"
+    ],
+    "param_codes": [],
+    "plc_addresses": [],
+    "entities": [],
+    "keywords": [],
+    "intent": "troubleshooting",
+    "query_type": "alarm_diagnosis",
+    "need_safety": false,
+    "expanded_queries": [
+      "SP9137"
+    ],
+    "vector_queries": [
+      "SP9137"
+    ]
+  },
+  "topk": [
+    {
+      "kb_id": "300220_FANUC0iMF_r0615_0016__alarm_01",
+      "block_id": "300220_FANUC0iMF_r0615_0016",
+      "rerank_score": 0.8667431725158377,
+      "adjusted_rerank_score": 1.4167431725158377,
+      "post_rerank_boost": 0.55,
+      "merged_score": 33.58293463473838,
+      "page_no": 615,
+      "section_path": "",
+      "text": "SP9137",
+      "image_paths": [
+        "data/images/300220_FANUC0iMF/page_0615.png"
+      ],
+      "sources": [
+        "entity_match",
+        "bm25",
+        "graph"
+      ],
+      "source_scores": {
+        "entity_match": 1.0,
+        "bm25": 18.754667432199046,
+        "graph": 18.754667432199046
+      },
+      "match_reason": [
+        "alarm_code_exact_match",
+        "keyword_match",
+        "graph_neighbor"
+      ],
+      "entities": [
+        "SP9137"
+      ],
+      "alarm_codes": [
+        "SP9137"
+      ],
+      "rank": 1
+    },
+    {
+      "kb_id": "300220_FANUC0iMF_r0615_0187__alarm_01",
+      "block_id": "300220_FANUC0iMF_r0615_0187",
+      "rerank_score": 0.8667431725158377,
+      "adjusted_rerank_score": 1.4167431725158377,
+      "post_rerank_boost": 0.55,
+      "merged_score": 33.58293463473838,
+      "page_no": 615,
+      "section_path": "",
+      "text": "SP9137",
+      "image_paths": [
+        "data/images/300220_FANUC0iMF/page_0615.png"
+      ],
+      "sources": [
+        "entity_match",
+        "bm25",
+        "graph"
+      ],
+      "source_scores": {
+        "entity_match": 1.0,
+        "bm25": 18.754667432199046,
+        "graph": 18.754667432199046
+      },
+      "match_reason": [
+        "alarm_code_exact_match",
+        "keyword_match",
+        "graph_neighbor"
+      ],
+      "entities": [
+        "SP9137"
+      ],
+      "alarm_codes": [
+        "SP9137"
+      ],
+      "rank": 2
+    },
+    {
+      "kb_id": "300220_FANUC0iMF_r0615_0014__para_01",
+      "block_id": "300220_FANUC0iMF_r0615_0014",
+      "rerank_score": 0.6357157979805287,
+      "adjusted_rerank_score": 0.6357157979805287,
+      "post_rerank_boost": 0.0,
+      "merged_score": 6.664133601269666,
+      "page_no": 615,
+      "section_path": "",
+      "text": "更换主轴放大器 (SP) 控制印刷电 路板",
+      "image_paths": [
+        "data/images/300220_FANUC0iMF/page_0615.png"
+      ],
+      "sources": [
+        "graph"
+      ],
+      "source_scores": {
+        "graph": 9.377333716099523
+      },
+      "match_reason": [
+        "graph_neighbor",
+        "related_context"
+      ],
+      "entities": [
+        "主轴",
+        "放大器"
+      ],
+      "alarm_codes": [],
+      "rank": 3
+    },
+    {
+      "kb_id": "300220_FANUC0iMF_r0615_0190__para_01",
+      "block_id": "300220_FANUC0iMF_r0615_0190",
+      "rerank_score": 0.6357157979805287,
+      "adjusted_rerank_score": 0.6357157979805287,
+      "post_rerank_boost": 0.0,
+      "merged_score": 3.282066800634833,
+      "page_no": 615,
+      "section_path": "",
+      "text": "更换主轴放大器 (SP) 控制印刷电 路板",
+      "image_paths": [
+        "data/images/300220_FANUC0iMF/page_0615.png"
+      ],
+      "sources": [
+        "graph"
+      ],
+      "source_scores": {
+        "graph": 4.6886668580497615
+      },
+      "match_reason": [
+        "graph_neighbor",
+        "related_context"
+      ],
+      "entities": [
+        "主轴",
+        "放大器"
+      ],
+      "alarm_codes": [],
+      "rank": 4
+    },
+    {
+      "kb_id": "300220_FANUC0iMF_r0615_0019__para_01",
+      "block_id": "300220_FANUC0iMF_r0615_0019",
+      "rerank_score": 0.6357157979805287,
+      "adjusted_rerank_score": 0.6357157979805287,
+      "post_rerank_boost": 0.0,
+      "merged_score": 3.282066800634833,
+      "page_no": 615,
+      "section_path": "",
+      "text": "更换主轴放大器 (SP) 控制印刷电 路板",
+      "image_paths": [
+        "data/images/300220_FANUC0iMF/page_0615.png"
+      ],
+      "sources": [
+        "graph"
+      ],
+      "source_scores": {
+        "graph": 4.6886668580497615
+      },
+      "match_reason": [
+        "graph_neighbor",
+        "related_context"
+      ],
+      "entities": [
+        "主轴",
+        "放大器"
+      ],
+      "alarm_codes": [],
+      "rank": 5
+    }
+  ],
+  "debug": {
+    "entity_hits": 2,
+    "bm25_hits": 2,
+    "vector_hits": 0,
+    "vector_skipped": true,
+    "graph_hits": 16,
+    "merged_candidates": 16,
+    "reranked": 5
+  }
+}
