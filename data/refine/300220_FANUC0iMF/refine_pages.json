@@ -1,0 +1,199 @@
+{
+  "doc_id": "300220_FANUC0iMF",
+  "page_count": 674,
+  "refine_page_count": 19,
+  "pages": [
+    {
+      "page_no": 622,
+      "reasons": [
+        "manual"
+      ],
+      "block_count": 0,
+      "text_chars": 0,
+      "alarm_count": 0
+    },
+    {
+      "page_no": 524,
+      "reasons": [
+        "alarm_candidate",
+        "alarm_dense",
+        "block_needs_refine",
+        "image"
+      ],
+      "block_count": 40,
+      "text_chars": 313,
+      "alarm_count": 5
+    },
+    {
+      "page_no": 587,
+      "reasons": [
+        "alarm_candidate",
+        "alarm_dense",
+        "block_needs_refine"
+      ],
+      "block_count": 288,
+      "text_chars": 1628,
+      "alarm_count": 28
+    },
+    {
+      "page_no": 555,
+      "reasons": [
+        "alarm_candidate",
+        "block_needs_refine"
+      ],
+      "block_count": 173,
+      "text_chars": 3453,
+      "alarm_count": 2
+    },
+    {
+      "page_no": 61,
+      "reasons": [
+        "block_needs_refine",
+        "image"
+      ],
+      "block_count": 111,
+      "text_chars": 939,
+      "alarm_count": 0
+    },
+    {
+      "page_no": 99,
+      "reasons": [
+        "block_needs_refine",
+        "image"
+      ],
+      "block_count": 18,
+      "text_chars": 223,
+      "alarm_count": 0
+    },
+    {
+      "page_no": 138,
+      "reasons": [
+        "block_needs_refine",
+        "image"
+      ],
+      "block_count": 20,
+      "text_chars": 288,
+      "alarm_count": 0
+    },
+    {
+      "page_no": 173,
+      "reasons": [
+        "block_needs_refine",
+        "image"
+      ],
+      "block_count": 29,
+      "text_chars": 501,
+      "alarm_count": 0
+    },
+    {
+      "page_no": 207,
+      "reasons": [
+        "block_needs_refine",
+        "image"
+      ],
+      "block_count": 29,
+      "text_chars": 454,
+      "alarm_count": 0
+    },
+    {
+      "page_no": 211,
+      "reasons": [
+        "block_needs_refine",
+        "image"
+      ],
+      "block_count": 35,
+      "text_chars": 693,
+      "alarm_count": 0
+    },
+    {
+      "page_no": 212,
+      "reasons": [
+        "block_needs_refine",
+        "image"
+      ],
+      "block_count": 34,
+      "text_chars": 594,
+      "alarm_count": 0
+    },
+    {
+      "page_no": 235,
+      "reasons": [
+        "block_needs_refine",
+        "image"
+      ],
+      "block_count": 128,
+      "text_chars": 591,
+      "alarm_count": 0
+    },
+    {
+      "page_no": 264,
+      "reasons": [
+        "block_needs_refine",
+        "image"
+      ],
+      "block_count": 73,
+      "text_chars": 962,
+      "alarm_count": 0
+    },
+    {
+      "page_no": 322,
+      "reasons": [
+        "block_needs_refine",
+        "image"
+      ],
+      "block_count": 31,
+      "text_chars": 564,
+      "alarm_count": 0
+    },
+    {
+      "page_no": 356,
+      "reasons": [
+        "block_needs_refine",
+        "image"
+      ],
+      "block_count": 95,
+      "text_chars": 930,
+      "alarm_count": 0
+    },
+    {
+      "page_no": 383,
+      "reasons": [
+        "block_needs_refine",
+        "image"
+      ],
+      "block_count": 38,
+      "text_chars": 1192,
+      "alarm_count": 0
+    },
+    {
+      "page_no": 415,
+      "reasons": [
+        "block_needs_refine",
+        "image"
+      ],
+      "block_count": 72,
+      "text_chars": 1606,
+      "alarm_count": 0
+    },
+    {
+      "page_no": 438,
+      "reasons": [
+        "block_needs_refine",
+        "image"
+      ],
+      "block_count": 62,
+      "text_chars": 662,
+      "alarm_count": 0
+    },
+    {
+      "page_no": 467,
+      "reasons": [
+        "block_needs_refine",
+        "image"
+      ],
+      "block_count": 153,
+      "text_chars": 927,
+      "alarm_count": 0
+    }
+  ]
+}

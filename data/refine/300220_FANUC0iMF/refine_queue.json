@@ -1,0 +1,221 @@
+{
+  "doc_id": "300220_FANUC0iMF",
+  "source_failure_report": "data\\eval\\300220_FANUC0iMF\\failure_report_bm25.json",
+  "source_missing_coverage_report": "E:\\rag-demo\\data\\refine\\300220_FANUC0iMF\\missing_coverage.json",
+  "min_pages_text_score": 15.0,
+  "pages_text_added": 23,
+  "pages": [
+    {
+      "page_no": 36,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "串行传感器脉冲丢失"
+      ]
+    },
+    {
+      "page_no": 233,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "PROFIBUS-DP 主控板"
+      ]
+    },
+    {
+      "page_no": 236,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "PROFIBUS-DP 主控板"
+      ]
+    },
+    {
+      "page_no": 251,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "PROFIBUS-DP 主控板",
+        "HSSB 接口板"
+      ]
+    },
+    {
+      "page_no": 252,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "PROFIBUS-DP 主控板"
+      ]
+    },
+    {
+      "page_no": 280,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "PROFIBUS-DP 主控板"
+      ]
+    },
+    {
+      "page_no": 334,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "参数写入开关处于打开"
+      ]
+    },
+    {
+      "page_no": 341,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "USB设备正在使用中"
+      ]
+    },
+    {
+      "page_no": 401,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "USB设备正在使用中"
+      ]
+    },
+    {
+      "page_no": 448,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "串行传感器脉冲丢失",
+        "安全速度0判断不一致",
+        "电流极限设定错误"
+      ]
+    },
+    {
+      "page_no": 488,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "参数写入开关处于打开"
+      ]
+    },
+    {
+      "page_no": 495,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "SYS_ALM134 FSSB LINE DATA ERROR"
+      ]
+    },
+    {
+      "page_no": 516,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "串行传感器脉冲丢失"
+      ]
+    },
+    {
+      "page_no": 573,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "USB设备正在使用中",
+        "参数写入开关处于打开"
+      ]
+    },
+    {
+      "page_no": 582,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "参数写入开关处于打开"
+      ]
+    },
+    {
+      "page_no": 584,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "串行传感器脉冲丢失"
+      ]
+    },
+    {
+      "page_no": 585,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "电流极限设定错误"
+      ]
+    },
+    {
+      "page_no": 586,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "安全速度0判断不一致"
+      ]
+    },
+    {
+      "page_no": 595,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "安全速度0判断不一致"
+      ]
+    },
+    {
+      "page_no": 611,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "电流极限设定错误"
+      ]
+    },
+    {
+      "page_no": 613,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "安全速度0判断不一致"
+      ]
+    },
+    {
+      "page_no": 666,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "USB设备正在使用中"
+      ]
+    },
+    {
+      "page_no": 667,
+      "reason": [
+        "pages_text_coverage_missing"
+      ],
+      "queries": [
+        "USB设备正在使用中",
+        "参数写入开关处于打开"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1167 @@
+{
+  "doc_id": "300220_FANUC0iMF",
+  "query_count": 20,
+  "missing_count": 61,
+  "items": [
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "串行传感器脉冲丢失",
+      "page_no": 448,
+      "page_score": 28.133633637189142,
+      "block_count": 0,
+      "missing_tokens": [
+        "串",
+        "行",
+        "传",
+        "感",
+        "器",
+        "脉",
+        "冲",
+        "丢",
+        "失"
+      ],
+      "suggest_refine_pages": [
+        448
+      ],
+      "text_preview": "9.AC 主轴 \n \nB-64605CM/01 \n- 430 - \n· \n主轴报警 \n9001:电机过热 \n9058:PS 主回路过载 \n9132:串行传感器数据错误 \n9002:速度偏差过大 \n9059:PS 内部冷却风扇停止 \n9133:串行传感器数据传输错误 \n9003:DC LINK 保险熔断 \n9061:半闭环超差 \n9134:串行传感器软相位 \n9004:电源缺相/保险熔断 \n9065:磁极确定动作时的移动量异常 \n9135:安全速度为0 错误（SP） \n9006"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "串行传感器脉冲丢失",
+      "page_no": 516,
+      "page_score": 26.948518582754126,
+      "block_count": 0,
+      "missing_tokens": [
+        "串",
+        "行",
+        "传",
+        "感",
+        "器",
+        "脉",
+        "冲",
+        "丢",
+        "失"
+      ],
+      "suggest_refine_pages": [
+        516
+      ],
+      "text_preview": "11.电机、检测器和放大器的维修检查 \n \nB-64605CM/01 \n- 498 - \n报警号：报警 \n内容 \n可能的原因 \n处理 \n处理方法\n详细 \n368：串行数据错误(内装) \n通信停止 \n·电缆断线 \n·脉冲编码器异常\n·干扰 \n电缆检测 \n更换脉冲编码器 \n（2） \n（3） \n（4） \n369：数据传送错误 (内装) \n通信数据异常 \n·干扰 \n确认干扰影响 \n（1） \n453：软断线报警 \n位置－磁极数据异常 \n·脉冲编码器异常\n·切削液侵入 \n更换脉冲编码器 "
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "串行传感器脉冲丢失",
+      "page_no": 584,
+      "page_score": 24.13029226092892,
+      "block_count": 0,
+      "missing_tokens": [
+        "串",
+        "行",
+        "传",
+        "感",
+        "器",
+        "脉",
+        "冲",
+        "丢",
+        "失"
+      ],
+      "suggest_refine_pages": [
+        584
+      ],
+      "text_preview": "A.报警列表 \n附录 \nB-64605CM/01 \n- 566 - \n报警号 \n信息 \n内容 \nSV0360 \n脉冲编码器代码检查和错误（内装）在内置脉冲编码器中产生检查和的报警。 \nSV0361 \n脉冲编码器相位异常（内装） \n在内置脉冲编码器中产生相位数据异常报警。 \nSV0362 \nn 轴: REV. 数据异常（INT） \n在内置脉冲编码器中产生转速计数异常报警。 \nSV0363 \n时钟异常（内装） \n在内置脉冲编码器中产生时钟报警。 \nSV0364 \n软相位报警 (内"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "串行传感器脉冲丢失",
+      "page_no": 36,
+      "page_score": 21.91700082454943,
+      "block_count": 0,
+      "missing_tokens": [
+        "串",
+        "行",
+        "传",
+        "感",
+        "器",
+        "脉",
+        "冲",
+        "丢",
+        "失"
+      ],
+      "suggest_refine_pages": [
+        36
+      ],
+      "text_preview": "1.画面的显示和操作 \n \nB-64605CM/01 \n- 18 - \n注释 \n \n此位在没有开始手动返回参考点方式的动作时没有意义。 \n \n \n \n#7 \n#6 \n#5 \n#4 \n#3 \n#2 \n#1 \n#0 \n诊断 \n202 \n \nCSA \nBLA \nPHA \nRCA \nBZA \nCKA \nSPH \n \n#0  SPH 串行脉冲编码器或反馈电缆异常。 \n反馈脉冲信号的计数不正确。 \n \n#1  CKA 串行脉冲编码器异常。 \n内部块停止工作。 \n \n#2  BZA 电池电"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "安全速度0判断不一致",
+      "page_no": 448,
+      "page_score": 21.501401480984512,
+      "block_count": 0,
+      "missing_tokens": [
+        "安",
+        "全",
+        "速",
+        "度",
+        "0",
+        "判",
+        "断",
+        "不",
+        "一",
+        "致"
+      ],
+      "suggest_refine_pages": [
+        448
+      ],
+      "text_preview": "9.AC 主轴 \n \nB-64605CM/01 \n- 430 - \n· \n主轴报警 \n9001:电机过热 \n9058:PS 主回路过载 \n9132:串行传感器数据错误 \n9002:速度偏差过大 \n9059:PS 内部冷却风扇停止 \n9133:串行传感器数据传输错误 \n9003:DC LINK 保险熔断 \n9061:半闭环超差 \n9134:串行传感器软相位 \n9004:电源缺相/保险熔断 \n9065:磁极确定动作时的移动量异常 \n9135:安全速度为0 错误（SP） \n9006"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "安全速度0判断不一致",
+      "page_no": 613,
+      "page_score": 20.97375527289628,
+      "block_count": 0,
+      "missing_tokens": [
+        "安",
+        "全",
+        "速",
+        "度",
+        "0",
+        "判",
+        "断",
+        "不",
+        "一",
+        "致"
+      ],
+      "suggest_refine_pages": [
+        613
+      ],
+      "text_preview": "B-64605CM/01 \n附录 \nA.报警列表 \n- 595 - \n报警号 \n信息 \nSP 显\n示*1\n故障位置和处理办法 \n内容 \nSP9065 \n串行主轴警告 \n65 \n① 检查参数设定 \n② 检查传感器的连接和信号 \n③ 检查电力线的连接 \n确定磁极时的移动量过大（同步\n主轴） \nSP9066 \n主轴放大器间通讯错误 \n66 \n① 更换电缆 \n② 检查并修改连接 \n检测出主轴放大器(SP)之间通讯\n(连接器JX4)的异常 \nSP9067 \nFSC/EGB 指令错误 \n"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "USB设备正在使用中",
+      "page_no": 666,
+      "page_score": 20.623384694056178,
+      "block_count": 0,
+      "missing_tokens": [
+        "USB",
+        "设",
+        "备",
+        "正",
+        "在",
+        "使",
+        "用",
+        "中"
+      ],
+      "suggest_refine_pages": [
+        666
+      ],
+      "text_preview": "I.USB 功能的维护 \n附录 \nB-64605CM/01 \n- 648 - \n错误和日志消息 \n注释 \n \n各日志消息，有时同时输出日志消息详细 \"[Ch(n):XXX]\"。 \n \n问题解决不了时，请连同日志消息以及日志消息详细，向我公司联系。 \n \n错误号码 \n日志消息 \n含义与处理方法 \nE-0E02 \n超出了可以打开的文件数 \n可同时打开的文件数至多为60 个。 \nE-0E03 \n检索的文件正在运行中 \n无法同时执行多个文件搜索。 \n文件搜索中，有可能试图在结束文件搜"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "电流极限设定错误",
+      "page_no": 448,
+      "page_score": 20.478011854919018,
+      "block_count": 0,
+      "missing_tokens": [
+        "电",
+        "流",
+        "极",
+        "限",
+        "设",
+        "定",
+        "错",
+        "误"
+      ],
+      "suggest_refine_pages": [
+        448
+      ],
+      "text_preview": "9.AC 主轴 \n \nB-64605CM/01 \n- 430 - \n· \n主轴报警 \n9001:电机过热 \n9058:PS 主回路过载 \n9132:串行传感器数据错误 \n9002:速度偏差过大 \n9059:PS 内部冷却风扇停止 \n9133:串行传感器数据传输错误 \n9003:DC LINK 保险熔断 \n9061:半闭环超差 \n9134:串行传感器软相位 \n9004:电源缺相/保险熔断 \n9065:磁极确定动作时的移动量异常 \n9135:安全速度为0 错误（SP） \n9006"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "USB设备正在使用中",
+      "page_no": 667,
+      "page_score": 19.706210635191418,
+      "block_count": 0,
+      "missing_tokens": [
+        "USB",
+        "设",
+        "备",
+        "正",
+        "在",
+        "使",
+        "用",
+        "中"
+      ],
+      "suggest_refine_pages": [
+        667
+      ],
+      "text_preview": "B-64605CM/01 \n附录 \nI.USB 功能的维护 \n- 649 - \n错误号码 \n日志消息 \n含义与处理方法 \nE-0E80 \n指定的文件夹/文件名错误 \n可能是因为下列原因所致。 \n→ 指定的全路径的开头字符是“（空白）”。 \n→ 包含有指定的全路径中不存在的文件夹。 \n→ 指定的全路径包含有ASCII 代码以外的代码。\n→ 文件打开、以及文件输入输出中，指定的全路\n径是已经存在的文件夹。 \n→ 文件删除中，指定的全路径是已经存在的文件\n夹。 \nE-0E81 \n文"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "PROFIBUS-DP 主控板",
+      "page_no": 252,
+      "page_score": 19.595946975750433,
+      "block_count": 0,
+      "missing_tokens": [
+        "PROFIBUS",
+        "DP",
+        "主",
+        "控",
+        "板"
+      ],
+      "suggest_refine_pages": [
+        252
+      ],
+      "text_preview": "2.控制单元的硬件 \n \nB-64605CM/01 \n- 234 - \n・ 连接器的安装位置 \n·PROFIBUS-DP 主控板 \nCN1 \n \n \n连接器号 \n用途 \nCN1 \nPROFIBUS-DP 主控接口用 \n \n· \nPROFIBUS-DP 从控板 \nCN2 \n \n \n连接器号 \n用途 \nCN2 \nPROFIBUS-DP 从控接口用 \n"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "USB设备正在使用中",
+      "page_no": 573,
+      "page_score": 19.37035009337621,
+      "block_count": 0,
+      "missing_tokens": [
+        "USB",
+        "设",
+        "备",
+        "正",
+        "在",
+        "使",
+        "用",
+        "中"
+      ],
+      "suggest_refine_pages": [
+        573
+      ],
+      "text_preview": "B-64605CM/01 \n附录 \nA.报警列表 \n- 555 - \n报警号 \n信息 \n内容 \n1805 \n输入/输出 I/F 指令非法 \n［输入/输出设备］ \n \n试图在输入/输出设备的输入/输出处理中指定非法的指令。 \n［G30 参考点返回］ \n \n指定了第2～第4参考点返回的P地址号分别超出2～4的范围。\n［每转暂停］ \n \n每转暂停指令时，主轴旋转指令为0。 \n1806 \n设备型式不符 \n在设定中指定了所选输入/输出设备无法执行的指令。 \n不是FANUC 磁盘而指定了"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "参数写入开关处于打开",
+      "page_no": 667,
+      "page_score": 19.24833655152908,
+      "block_count": 0,
+      "missing_tokens": [
+        "参",
+        "数",
+        "写",
+        "入",
+        "开",
+        "关",
+        "处",
+        "于",
+        "打",
+        "开"
+      ],
+      "suggest_refine_pages": [
+        667
+      ],
+      "text_preview": "B-64605CM/01 \n附录 \nI.USB 功能的维护 \n- 649 - \n错误号码 \n日志消息 \n含义与处理方法 \nE-0E80 \n指定的文件夹/文件名错误 \n可能是因为下列原因所致。 \n→ 指定的全路径的开头字符是“（空白）”。 \n→ 包含有指定的全路径中不存在的文件夹。 \n→ 指定的全路径包含有ASCII 代码以外的代码。\n→ 文件打开、以及文件输入输出中，指定的全路\n径是已经存在的文件夹。 \n→ 文件删除中，指定的全路径是已经存在的文件\n夹。 \nE-0E81 \n文"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "PROFIBUS-DP 主控板",
+      "page_no": 236,
+      "page_score": 19.062497595660638,
+      "block_count": 0,
+      "missing_tokens": [
+        "PROFIBUS",
+        "DP",
+        "主",
+        "控",
+        "板"
+      ],
+      "suggest_refine_pages": [
+        236
+      ],
+      "text_preview": "2.控制单元的硬件 \n \nB-64605CM/01 \n- 218 - \n \n选\n项\n插\n槽\n \n有选项板时 \nETHERNET(CD38R)\n快速以太网板 \n以太网、FL-net 等 \nHSSB(COP21A)\nHSSB 接口板 \nPANEL i \n或者PC 机 \n请使用发那科制小型闪存卡。 \nPROFI(CN1)\nPROFIBUS-DP \n主控板 \n其他的控制单元 \n或者PROFIBUS-DP 设备 \nPROFI(CN2)\nPROFIBUS-DP \n从控板 \n其他的控制单元"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "电流极限设定错误",
+      "page_no": 585,
+      "page_score": 19.059006048826284,
+      "block_count": 0,
+      "missing_tokens": [
+        "电",
+        "流",
+        "极",
+        "限",
+        "设",
+        "定",
+        "错",
+        "误"
+      ],
+      "suggest_refine_pages": [
+        585
+      ],
+      "text_preview": "B-64605CM/01 \n附录 \nA.报警列表 \n- 567 - \n报警号 \n信息 \n内容 \nSV0431 \n变频器过载 \n过热。 \nSV0432 \n变频器控制电压低 \n控制电源的电压下降。 \nSV0433 \n变频器DC LINK 电压低 \nDC 链路电压下降。 \nSV0434 \n逆变器控制电压低 \n控制电源的电压下降。 \nSV0435 \n逆变器 DC LINK 低电压 \nDC 链路电压下降。 \nSV0436 \n软过热继电器（OVC） \n数字伺服软件检测到软发热保护(OVC"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "参数写入开关处于打开",
+      "page_no": 582,
+      "page_score": 18.7672683864547,
+      "block_count": 0,
+      "missing_tokens": [
+        "参",
+        "数",
+        "写",
+        "入",
+        "开",
+        "关",
+        "处",
+        "于",
+        "打",
+        "开"
+      ],
+      "suggest_refine_pages": [
+        582
+      ],
+      "text_preview": "A.报警列表 \n附录 \nB-64605CM/01 \n- 564 - \n报警号 \n信息 \n内容 \n5462 \n非法指令 (G68.2/G69) \n(1) 指令G68.2/G69 时的模态有误。 \n(2) 指令了无法在G68.2 方式中指令的G 代码。 \n(3) 指令G68.2/G69 时，尚未取消刀具径补偿和刀尖半径补偿的偏\n置矢量。 \n5523 \n选项认证等待状态 \n选项设定状态已成为选项认证等待状态。 \n· 本报警只要在有效期内（报警发生后30 日以内），就可通过复\n位而清"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "电流极限设定错误",
+      "page_no": 611,
+      "page_score": 18.73304770692016,
+      "block_count": 0,
+      "missing_tokens": [
+        "电",
+        "流",
+        "极",
+        "限",
+        "设",
+        "定",
+        "错",
+        "误"
+      ],
+      "suggest_refine_pages": [
+        611
+      ],
+      "text_preview": "B-64605CM/01 \n附录 \nA.报警列表 \n- 593 - \n报警号 \n信息 \nSP 显\n示*1\n故障位置和处理办法 \n内容 \nSP9015 \nSSPA:15  主轴切换故障 \n15 \n① 检查并修改梯形顺序 \n② 更换切换用MCC \n主轴切换／输出切换时的顺序异\n常。 \n切换用MCC 的接点状态检查信\n号和指令不一致。 \nSP9016 \nSSPA:16  RAM 故障 \n16 \n更换主轴放大器(SP)控制印刷电\n路板 \n检测出主轴放大器(SP)控制电路\n部件的异常("
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "PROFIBUS-DP 主控板",
+      "page_no": 251,
+      "page_score": 18.2808669210435,
+      "block_count": 0,
+      "missing_tokens": [
+        "PROFIBUS",
+        "DP",
+        "主",
+        "控",
+        "板"
+      ],
+      "suggest_refine_pages": [
+        251
+      ],
+      "text_preview": "B-64605CM/01 \n \n2.控制单元的硬件 \n- 233 - \n2.5.2 \nHSSB接口板 \n·规格 \n名称 \n规格 \n备注 \nHSSB 接口板 \nA20B-8101-0111 \n \n \n·连接器、LED 的安装位置以及LED 显示 \nLEDR\nBRDYA\n(绿) \n(红) \n \n \n连接器号 \n用途 \nCOP21N \nHSSB 接口用 \n \n·LED 显示 \nLED \nLED 的含义 \nLEDR \n此板上发生公共RAM 奇偶校验报警时点亮 \nBRDYA \n链接建立"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "USB设备正在使用中",
+      "page_no": 401,
+      "page_score": 17.201054263404068,
+      "block_count": 0,
+      "missing_tokens": [
+        "USB",
+        "设",
+        "备",
+        "正",
+        "在",
+        "使",
+        "用",
+        "中"
+      ],
+      "suggest_refine_pages": [
+        401
+      ],
+      "text_preview": "B-64605CM/01 \n \n7.嵌入式以太网功能 \n- 383 - \n注释 \n \n无法使用CNC 状态通知功能时，请重新接通CNC 的电源。 \n \n7.2.9 \n通信参数的备份/恢复 \n下面就为将嵌入式以太网的通信参数备份到存储卡或者USB 存储器的操作以及恢复的操作进行说明。备份/恢复到存储\n卡或者USB 存储器，通过NC 参数No.20 来设定。有关USB 存储器的规格和限制事项，请参阅车床系统／加工中心系\n统通用操作说明书(B-64604CM)的“USB 功能”。 "
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "参数写入开关处于打开",
+      "page_no": 573,
+      "page_score": 16.83497453727486,
+      "block_count": 0,
+      "missing_tokens": [
+        "参",
+        "数",
+        "写",
+        "入",
+        "开",
+        "关",
+        "处",
+        "于",
+        "打",
+        "开"
+      ],
+      "suggest_refine_pages": [
+        573
+      ],
+      "text_preview": "B-64605CM/01 \n附录 \nA.报警列表 \n- 555 - \n报警号 \n信息 \n内容 \n1805 \n输入/输出 I/F 指令非法 \n［输入/输出设备］ \n \n试图在输入/输出设备的输入/输出处理中指定非法的指令。 \n［G30 参考点返回］ \n \n指定了第2～第4参考点返回的P地址号分别超出2～4的范围。\n［每转暂停］ \n \n每转暂停指令时，主轴旋转指令为0。 \n1806 \n设备型式不符 \n在设定中指定了所选输入/输出设备无法执行的指令。 \n不是FANUC 磁盘而指定了"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "USB设备正在使用中",
+      "page_no": 341,
+      "page_score": 16.757817630601735,
+      "block_count": 0,
+      "missing_tokens": [
+        "USB",
+        "设",
+        "备",
+        "正",
+        "在",
+        "使",
+        "用",
+        "中"
+      ],
+      "suggest_refine_pages": [
+        341
+      ],
+      "text_preview": "B-64605CM/01 \n \n5.输入/输出数据 \n- 323 - \n5.4.2 \n数据批量保存 \n可以将SRAM 数据和用户文件保存在输入输出设备中。 \n保存操作，通过IPL 监控器的批量保存/恢复菜单进行。 \n \n 注意 \n1 \n批量保存功能下保存到输入输出设备中的信息，全都只在相同的硬件配置、相同的选项配置的CNC 上具有兼\n容性。 \n2 \n利用本功能输出的文件的文件名已被固定。输入输出设备内已经有相同名称的文件时，该文件将被盖写。使用\n本功能时，建议用户将输入/输出"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "参数写入开关处于打开",
+      "page_no": 334,
+      "page_score": 16.53733625304878,
+      "block_count": 0,
+      "missing_tokens": [
+        "参",
+        "数",
+        "写",
+        "入",
+        "开",
+        "关",
+        "处",
+        "于",
+        "打",
+        "开"
+      ],
+      "suggest_refine_pages": [
+        334
+      ],
+      "text_preview": "5.输入/输出数据 \n \nB-64605CM/01 \n- 316 - \n注释 \n \n发那科公司提供在市面出售的电脑上将ASCII 代码的文件转换为ISO 代码的工具(FANUC \nISO Converter)，请使用该工具。 \n \n \n \n#7 \n#6 \n#5 \n#4 \n#3 \n#2 \n#1 \n#0 \n11505 \n \n \n \n \n \n \n \n \nISU \n \nISU  \n0: \n以ASCII 代码输入。 \n \n  \n1: \n以ISO 代码输入。（USB 存储器时） \n \n "
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "PROFIBUS-DP 主控板",
+      "page_no": 233,
+      "page_score": 16.237634134250087,
+      "block_count": 0,
+      "missing_tokens": [
+        "PROFIBUS",
+        "DP",
+        "主",
+        "控",
+        "板"
+      ],
+      "suggest_refine_pages": [
+        233
+      ],
+      "text_preview": "B-64605CM/01 \n \n2.控制单元的硬件 \n- 215 - \n2.2 \n硬件概要 \n2.2.1 \n显示器一体型控制单元的概要 \n \n无选项插槽 \n或 \n带有选项2 插槽 \n \n基本系统 \n选项 \n·用于CNC 控制的CPU \n·电源 \n·轴控制功能 \n·MDI 接口 \n·I/O Link i 控制功能 \n·模拟输出 \n·位置编码器 \n·PMC 控制功能 \n·高速跳转（HDI） \n·RS-232C 接口 \n·存储卡接口 \n·USB 接口 \n·以太网功能 \n \n快速以太"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "参数写入开关处于打开",
+      "page_no": 488,
+      "page_score": 16.221501816098325,
+      "block_count": 0,
+      "missing_tokens": [
+        "参",
+        "数",
+        "写",
+        "入",
+        "开",
+        "关",
+        "处",
+        "于",
+        "打",
+        "开"
+      ],
+      "suggest_refine_pages": [
+        488
+      ],
+      "text_preview": "10.故障排除步骤 \n \nB-64605CM/01 \n- 470 - \n10.20 报警SV5134（FSSB：开机超时） \n报警SV5137（FSSB：配置错误） \n报警SV5197（FSSB：开机超时） \n原因与处理办法 \n由于连接到FSSB 的伺服放大器等的从动装置及光缆、伺服卡不良而发生此项报警。此外，FSSB 相关参数的设定值有误\n时会发生报警。请确认诊断数据No.3510,No.3511,No.3513 后，就相应的参数变更设定。（详情请参阅“诊断功能”项。) \n"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "安全速度0判断不一致",
+      "page_no": 586,
+      "page_score": 16.137654291230888,
+      "block_count": 0,
+      "missing_tokens": [
+        "安",
+        "全",
+        "速",
+        "度",
+        "0",
+        "判",
+        "断",
+        "不",
+        "一",
+        "致"
+      ],
+      "suggest_refine_pages": [
+        586
+      ],
+      "text_preview": "A.报警列表 \n附录 \nB-64605CM/01 \n- 568 - \n报警号 \n信息 \n内容 \nSV0477 \n机床位置不正确 (伺服 DSP ) \n伺服在n 轴中检测出了在安全监视中(安全监视请求信号*VLDVx\n为“0”时)机械位置超出安全区域(参数(No.13831～13838)的设定\n范围外)。请在安全区域内运行。 \n仅对已经建立起参考点的轴进行机械位置检测。对于建立参考点之\n前的轴，不进行机械位置检测。 \nSV0478 \n轴数据非法 (伺服 DSP) \n伺服在n 轴"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "安全速度0判断不一致",
+      "page_no": 595,
+      "page_score": 16.026361823423265,
+      "block_count": 0,
+      "missing_tokens": [
+        "安",
+        "全",
+        "速",
+        "度",
+        "0",
+        "判",
+        "断",
+        "不",
+        "一",
+        "致"
+      ],
+      "suggest_refine_pages": [
+        595
+      ],
+      "text_preview": "B-64605CM/01 \n附录 \nA.报警列表 \n- 577 - \n报警号 \n信息 \n内容 \nDS1448 \n参数非法 (D.C.S) \n带有参照原点的光栅尺的参数符合下列任一条件。 \n· 使用绝对位置检测器 \n· 参数(No.1821)（标记1 的间隔）或参数(No.1882)（标记2 的间隔）\n被设定为0 时 \n· 参数(No.1821)的设定值大于等于参数(No.1882)的设定值时 \n· 参数(No.1821、No.1882)的设定值存在2 倍以上的差时 \n· 参数"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "HSSB 接口板",
+      "page_no": 251,
+      "page_score": 15.62236875417586,
+      "block_count": 0,
+      "missing_tokens": [
+        "HSSB",
+        "接",
+        "口",
+        "板"
+      ],
+      "suggest_refine_pages": [
+        251
+      ],
+      "text_preview": "B-64605CM/01 \n \n2.控制单元的硬件 \n- 233 - \n2.5.2 \nHSSB接口板 \n·规格 \n名称 \n规格 \n备注 \nHSSB 接口板 \nA20B-8101-0111 \n \n \n·连接器、LED 的安装位置以及LED 显示 \nLEDR\nBRDYA\n(绿) \n(红) \n \n \n连接器号 \n用途 \nCOP21N \nHSSB 接口用 \n \n·LED 显示 \nLED \nLED 的含义 \nLEDR \n此板上发生公共RAM 奇偶校验报警时点亮 \nBRDYA \n链接建立"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "PROFIBUS-DP 主控板",
+      "page_no": 280,
+      "page_score": 15.600375389669626,
+      "block_count": 0,
+      "missing_tokens": [
+        "PROFIBUS",
+        "DP",
+        "主",
+        "控",
+        "板"
+      ],
+      "suggest_refine_pages": [
+        280
+      ],
+      "text_preview": "3.更换控制单元的维修部件 \n \nB-64605CM/01 \n- 262 - \n \n有关可选板的安装位置 \n有关可选板的安装，规定了应该安装的插槽位置。在追加和维修可选板时，请按照如下规则安装可选板。 \n \n通过表3.8.1 来确认要安装的可选板，从编号小的可选板，按照插槽1、插槽2 的顺序安装。 \n \n表3.8.1 可选板 \n№ \n名称 \n1 \n快速以太网板 \n2 \nDeviceNet 主控板 \n3 \nDeviceNet 从控板 \n4 \nPROFIBUS-DP 主控板 \n5"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "SYS_ALM134 FSSB LINE DATA ERROR",
+      "page_no": 495,
+      "page_score": 15.53987028649047,
+      "block_count": 0,
+      "missing_tokens": [
+        "SYS",
+        "ALM134",
+        "FSSB",
+        "LINE",
+        "DATA",
+        "ERROR"
+      ],
+      "suggest_refine_pages": [
+        495
+      ],
+      "text_preview": "B-64605CM/01 \n \n10.故障排除步骤 \n- 477 - \n信息 \n内容 \n原因 \n处理办法 \nSYS_ALM404 \nECC \nUNCORRECTABLE \nERROR \nCNC 的总线上\n发生了问题。 \n可能是由于印刷板\n的不良或外来噪声\n的影响所致。 \n除了所显示的可能性最大的不良部位外，也有可能是主\n板、系统报警画面上显示的“MASTER PCB”、“SLAVE \nPCB”的不良。 \n另外，该错误在某些情况下是由于外来噪声引起的。确\n认机床附近是否有噪声源"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "SYS_ALM134 FSSB LINE DATA ERROR",
+      "page_no": 498,
+      "page_score": 14.646026318862884,
+      "block_count": 0,
+      "missing_tokens": [
+        "SYS",
+        "ALM134",
+        "FSSB",
+        "LINE",
+        "DATA",
+        "ERROR"
+      ],
+      "suggest_refine_pages": [
+        498
+      ],
+      "text_preview": "10.故障排除步骤 \n \nB-64605CM/01 \n- 480 - \n \n SERIES 0I DXXX \n \nSYS_ALM199 NON MASK INTERRUPT \n \nOTHER-CPU \n \n2010/04/18 12:00:00 \n \nPROGRAM COUNTER  : _________ \n \nACT TASK         : _________ \n \nACCESS ADDRESS   : ____-____ \n \nACCESS DATA      :"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "HSSB 接口板",
+      "page_no": 624,
+      "page_score": 14.52675346388964,
+      "block_count": 0,
+      "missing_tokens": [
+        "HSSB",
+        "接",
+        "口",
+        "板"
+      ],
+      "suggest_refine_pages": [
+        624
+      ],
+      "text_preview": "B.单元、印刷电路板以及消耗品一览 \n附录 \nB-64605CM/01 \n- 606 - \n品名 \n图号 \n备注 \n闪存卡适配器 A \nA02B-0303-K150 \n \n闪存卡适配器 B \nA02B-0236-K150 \nATA 卡变换用 \n电脑侧 HSSB 接口板(2CH.) 支持PCI 总线 \nA20B-8101-0162 \n \n电脑侧 HSSB 接口板(1CH.) 支持PCI 总线 \nA20B-8101-0163 \n \n \n"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "SYS_ALM134 FSSB LINE DATA ERROR",
+      "page_no": 502,
+      "page_score": 13.341744641523503,
+      "block_count": 0,
+      "missing_tokens": [
+        "SYS",
+        "ALM134",
+        "FSSB",
+        "LINE",
+        "DATA",
+        "ERROR"
+      ],
+      "suggest_refine_pages": [
+        502
+      ],
+      "text_preview": "10.故障排除步骤 \n \nB-64605CM/01 \n- 484 - \n \n SERIES 0I DXXX \n \nSYS_ALM194 IO LINK I ALARM \n \nIO LINK I \n \n2008/11/18 12:00:00 \n \n \n \nEMBEDDED SOFTWARE SYSTEM ERROR(40XX-XXXX) \n \nPC055  I/O LINK I \n \nI/O LINK I SENDING DATA FAILURE \n \n \n \n-----< E"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "HSSB 接口板",
+      "page_no": 236,
+      "page_score": 12.954787006026383,
+      "block_count": 0,
+      "missing_tokens": [
+        "HSSB",
+        "接",
+        "口",
+        "板"
+      ],
+      "suggest_refine_pages": [
+        236
+      ],
+      "text_preview": "2.控制单元的硬件 \n \nB-64605CM/01 \n- 218 - \n \n选\n项\n插\n槽\n \n有选项板时 \nETHERNET(CD38R)\n快速以太网板 \n以太网、FL-net 等 \nHSSB(COP21A)\nHSSB 接口板 \nPANEL i \n或者PC 机 \n请使用发那科制小型闪存卡。 \nPROFI(CN1)\nPROFIBUS-DP \n主控板 \n其他的控制单元 \n或者PROFIBUS-DP 设备 \nPROFI(CN2)\nPROFIBUS-DP \n从控板 \n其他的控制单元"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "SYS_ALM134 FSSB LINE DATA ERROR",
+      "page_no": 497,
+      "page_score": 12.888169060446158,
+      "block_count": 0,
+      "missing_tokens": [
+        "SYS",
+        "ALM134",
+        "FSSB",
+        "LINE",
+        "DATA",
+        "ERROR"
+      ],
+      "suggest_refine_pages": [
+        497
+      ],
+      "text_preview": "B-64605CM/01 \n \n10.故障排除步骤 \n- 479 - \n10.25 与PMC、I/O Link相关的系统报警 \n显示如下所示的系统报警(SYS_ALM194,195,196,197)和报警号码(PCxxx)时，属于PMC、I/O Link i、I/O Link 相关的系统\n报警。原因可能是PMC 控制电路部的故障、I/O Link 通信异常等。 \n \n SERIES 0I DXXX \n \nSYS_ALM197 EMBEDDED SOFTWARE SYSTEM "
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "HSSB 接口板",
+      "page_no": 233,
+      "page_score": 12.880077679739067,
+      "block_count": 0,
+      "missing_tokens": [
+        "HSSB",
+        "接",
+        "口",
+        "板"
+      ],
+      "suggest_refine_pages": [
+        233
+      ],
+      "text_preview": "B-64605CM/01 \n \n2.控制单元的硬件 \n- 215 - \n2.2 \n硬件概要 \n2.2.1 \n显示器一体型控制单元的概要 \n \n无选项插槽 \n或 \n带有选项2 插槽 \n \n基本系统 \n选项 \n·用于CNC 控制的CPU \n·电源 \n·轴控制功能 \n·MDI 接口 \n·I/O Link i 控制功能 \n·模拟输出 \n·位置编码器 \n·PMC 控制功能 \n·高速跳转（HDI） \n·RS-232C 接口 \n·存储卡接口 \n·USB 接口 \n·以太网功能 \n \n快速以太"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "DeviceNet 从控板",
+      "page_no": 255,
+      "page_score": 12.417271916372291,
+      "block_count": 0,
+      "missing_tokens": [
+        "DEVICENET",
+        "从",
+        "控",
+        "板"
+      ],
+      "suggest_refine_pages": [
+        255
+      ],
+      "text_preview": "B-64605CM/01 \n \n2.控制单元的硬件 \n- 237 - \n2.5.4 \nDeviceNet板 \n规格 \n名称 \n规格 \n备注 \nDeviceNet 主控板 \nA20B-8101-0220 \n \nDeviceNet 从控板 \nA20B-8101-0330 \n \n \n连接器和LED 的安装位置 \n· \nDeviceNet 主控板 \n \nTBL \n前面板 \n \nNS MS (LED)\n左起 \nLEDWD \nLED3 \nLED2 \nLED1 \nLED0 \n子板 \n \n "
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "DeviceNet 从控板",
+      "page_no": 259,
+      "page_score": 12.242011884513147,
+      "block_count": 0,
+      "missing_tokens": [
+        "DEVICENET",
+        "从",
+        "控",
+        "板"
+      ],
+      "suggest_refine_pages": [
+        259
+      ],
+      "text_preview": "B-64605CM/01 \n \n2.控制单元的硬件 \n- 241 - \nDeviceNet 从控板 \n本板上，作为状态显示用的LED，有4 个绿色LED (LED0～3)和1 个红色LED(LEDWD)，进而还有2 类LED(MS 和NS)，\n其各具备一个红色LED 和绿色LED。  \n \n名称 \n颜色 \n含义 \nLED0～3 \n绿 \n表示DeviceNet 应用软件的启动状态。 \nLEDWD \n红 \n表示DeviceNet 从控板的异常。 \n绿 \nMS \n红 \n表示模块状态"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "DeviceNet 从控板",
+      "page_no": 256,
+      "page_score": 12.213738029932308,
+      "block_count": 0,
+      "missing_tokens": [
+        "DEVICENET",
+        "从",
+        "控",
+        "板"
+      ],
+      "suggest_refine_pages": [
+        256
+      ],
+      "text_preview": "2.控制单元的硬件 \n \nB-64605CM/01 \n- 238 - \nLED 显示及其内容 \n·DeviceNet 主控板 \n此板上有4 个绿色LED 和1 个红色LED，作为用于状态显示的LED。此外，内部的子板上呈红/绿两色点亮的2 个LED。  \n \n名称 \n颜色 \n含义 \nLED0～3 \n绿 \n表示DeviceNet 应用软件的启动状态。 \nLEDWD \n红 \n表示子板的异常。 \nMS \n红／绿 \n表示模块状态，意味着自身节点的状态。 \nNS \n红／绿 \n表示网络状"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "主轴通信异常",
+      "page_no": 174,
+      "page_score": 12.150453896564837,
+      "block_count": 0,
+      "missing_tokens": [
+        "主",
+        "轴",
+        "通",
+        "信",
+        "异",
+        "常"
+      ],
+      "suggest_refine_pages": [
+        174
+      ],
+      "text_preview": "1.画面的显示和操作 \n \nB-64605CM/01 \n- 156 - \n1.13.4 \n参数 \n \n \n#7 \n#6 \n#5 \n#4 \n#3 \n#2 \n#1 \n#0 \n3103 \n \n \n \n \n \n \nNMH \n \n \n \n \n［输入类型］ 参数输入 \n \n［数据类型］ 位型 \n \n \n#2  NMH 系统警告履历画面 \n0: \n不予显示。 \n1: \n予以显示。 \n \n1.14 \n机械状态监视功能 \n1.14.1 \n概述 \n本功能用来监视机械的状态，在发生主轴碰撞等异常时"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "主轴通信异常",
+      "page_no": 448,
+      "page_score": 12.089440290543507,
+      "block_count": 0,
+      "missing_tokens": [
+        "主",
+        "轴",
+        "通",
+        "信",
+        "异",
+        "常"
+      ],
+      "suggest_refine_pages": [
+        448
+      ],
+      "text_preview": "9.AC 主轴 \n \nB-64605CM/01 \n- 430 - \n· \n主轴报警 \n9001:电机过热 \n9058:PS 主回路过载 \n9132:串行传感器数据错误 \n9002:速度偏差过大 \n9059:PS 内部冷却风扇停止 \n9133:串行传感器数据传输错误 \n9003:DC LINK 保险熔断 \n9061:半闭环超差 \n9134:串行传感器软相位 \n9004:电源缺相/保险熔断 \n9065:磁极确定动作时的移动量异常 \n9135:安全速度为0 错误（SP） \n9006"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "DeviceNet 从控板",
+      "page_no": 236,
+      "page_score": 11.760905637763786,
+      "block_count": 0,
+      "missing_tokens": [
+        "DEVICENET",
+        "从",
+        "控",
+        "板"
+      ],
+      "suggest_refine_pages": [
+        236
+      ],
+      "text_preview": "2.控制单元的硬件 \n \nB-64605CM/01 \n- 218 - \n \n选\n项\n插\n槽\n \n有选项板时 \nETHERNET(CD38R)\n快速以太网板 \n以太网、FL-net 等 \nHSSB(COP21A)\nHSSB 接口板 \nPANEL i \n或者PC 机 \n请使用发那科制小型闪存卡。 \nPROFI(CN1)\nPROFIBUS-DP \n主控板 \n其他的控制单元 \n或者PROFIBUS-DP 设备 \nPROFI(CN2)\nPROFIBUS-DP \n从控板 \n其他的控制单元"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "主轴通信异常",
+      "page_no": 584,
+      "page_score": 11.324913874016744,
+      "block_count": 0,
+      "missing_tokens": [
+        "主",
+        "轴",
+        "通",
+        "信",
+        "异",
+        "常"
+      ],
+      "suggest_refine_pages": [
+        584
+      ],
+      "text_preview": "A.报警列表 \n附录 \nB-64605CM/01 \n- 566 - \n报警号 \n信息 \n内容 \nSV0360 \n脉冲编码器代码检查和错误（内装）在内置脉冲编码器中产生检查和的报警。 \nSV0361 \n脉冲编码器相位异常（内装） \n在内置脉冲编码器中产生相位数据异常报警。 \nSV0362 \nn 轴: REV. 数据异常（INT） \n在内置脉冲编码器中产生转速计数异常报警。 \nSV0363 \n时钟异常（内装） \n在内置脉冲编码器中产生时钟报警。 \nSV0364 \n软相位报警 (内"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "主轴通信异常",
+      "page_no": 614,
+      "page_score": 11.30338470768191,
+      "block_count": 0,
+      "missing_tokens": [
+        "主",
+        "轴",
+        "通",
+        "信",
+        "异",
+        "常"
+      ],
+      "suggest_refine_pages": [
+        614
+      ],
+      "text_preview": "A.报警列表 \n附录 \nB-64605CM/01 \n- 596 - \n报警号 \n信息 \nSP 显\n示*1\n故障位置和处理办法 \n内容 \nSP9084 \n主轴传感器断线 \n84 \n① 更换反馈电缆 \n② 检查屏蔽处理 \n③ 检查并修改连接 \n④ 检查并修改参数 \n⑤ 调节传感器 \n主轴传感器的反馈信号断线(连\n接器JYA4) \nSP9085 \n主轴上传感器1 转信号错\n误 \n85 \n① 检查并修改参数 \n② 更换反馈电缆 \n③ 调节传感器 \n没有正确检测出主轴传感器的一\n转信号"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "主轴通信异常",
+      "page_no": 53,
+      "page_score": 11.240595024712624,
+      "block_count": 0,
+      "missing_tokens": [
+        "主",
+        "轴",
+        "通",
+        "信",
+        "异",
+        "常"
+      ],
+      "suggest_refine_pages": [
+        53
+      ],
+      "text_preview": "B-64605CM/01 \n \n1.画面的显示和操作 \n- 35 - \n \n·伺服绝缘劣化检测信息 \n \n \n \n#7 \n#6 \n#5 \n#4 \n#3 \n#2 \n#1 \n#0 \n诊断 \n1700 \n \nVPG \nRLY \nZOF \nZTR \nINS \nZMS \nZND \nZUD \n \n［数据类型］ 位轴型 \n \n#0  ZUD 绝缘劣化检测功能有效下绝缘电阻值 \n \n 0：测量完成 \n \n 1：未测量 \n \n#1  ZND 是否对应绝缘劣化检测功能 \n \n 0：对应 \n \n "
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "PMC 梯形图",
+      "page_no": 348,
+      "page_score": 11.22055061225971,
+      "block_count": 0,
+      "missing_tokens": [
+        "PMC",
+        "梯",
+        "形",
+        "图"
+      ],
+      "suggest_refine_pages": [
+        348
+      ],
+      "text_preview": "6.CNC 和PMC 之间的接口 \n \nB-64605CM/01 \n- 330 - \n有关PMC 画面 \n在NC 系统中，按下<SYSTEM>功能键并用［+］软键翻动软键的页面时，出现PMC 主菜单。 \nPMC 主菜单根据用途，分为下列3 种辅助菜单。 \n• \nPMC 维护 \n• \nPMC 梯图 \n• \nPMC 配置 \n \n下面就每个PMC 辅助菜单的用途进行说明。 \n(1) PMC 维护菜单 \n \n该菜单显示PMC 信号状态的监控、追踪、PMC 数据的显示/编辑等与PMC "
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "PMC 梯形图",
+      "page_no": 31,
+      "page_score": 10.97403792383258,
+      "block_count": 0,
+      "missing_tokens": [
+        "PMC",
+        "梯",
+        "形",
+        "图"
+      ],
+      "suggest_refine_pages": [
+        31
+      ],
+      "text_preview": "B-64605CM/01 \n \n1.画面的显示和操作 \n- 13 - \n1.2.3 \n软件配置画面 \n·画面显示 \n \n图1.2.3 (a)  软件配置画面 \n \n \n \n·显示内容 \n下面就显示内容进行说明。 \n系统 \n：软件的种类 \n系列 \n：软件的系列 \n版本 \n：软件的版本 \n \n·显示系统和软件的种类 \n与所显示的系统对应的软件如下所示。 \n \n表1.2.3 (a)  软件的种类 \n系统 \n软件的种类 \nCNC(SYSTEM1) \n CNC 系统软件1 \nCNC(S"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "SP9137 DEVICE COMMUNICATION ERROR",
+      "page_no": 499,
+      "page_score": 10.49551812457715,
+      "block_count": 0,
+      "missing_tokens": [
+        "SP9137",
+        "DEVICE",
+        "COMMUNICATION",
+        "ERROR"
+      ],
+      "suggest_refine_pages": [
+        499
+      ],
+      "text_preview": "B-64605CM/01 \n \n10.故障排除步骤 \n- 481 - \n系统报警196(PMC监控) \n系PMC 监控的系统报警。有关报警的内容，请参阅“附录A.2.2 PMC 系统报警信息”。 \n \n显示例 \n \n SERIES 0I DXXX \n \nSYS_ALM196 PMC WATCH DOG ALARM \n \nMAIN BOARD \n \n2010/04/18 12:00:00 \n \nEMBEDDED SOFTWARE SYSTEM ERROR:(40xx-xxxx)"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "PMC 梯形图",
+      "page_no": 349,
+      "page_score": 10.308812762531339,
+      "block_count": 0,
+      "missing_tokens": [
+        "PMC",
+        "梯",
+        "形",
+        "图"
+      ],
+      "suggest_refine_pages": [
+        349
+      ],
+      "text_preview": "B-64605CM/01 \n \n6.CNC 和PMC 之间的接口 \n- 331 - \n6.2.1 \n各PMC画面的变化图 \n \nSYSTEM \nPMC 维修 \n列表 \n梯形图 \n标头 \n构成参数 \n设定 \nPMC 状态 \n系统参数 \n模块 \n符号 \n信息 \n在线 \nPMC 梯图 \nPMC 配置 \n＜ \n＜ \n＜ \n程序列表画面 \n梯形显示/编辑画面 \n标题显示/编辑画面 \n构成参数画面 \nPMC 状态画面（多路径PMC 切换） \n系统参数显示/编辑画面 \nI I/O 模块显示"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "DeviceNet 从控板",
+      "page_no": 233,
+      "page_score": 10.281503100208838,
+      "block_count": 0,
+      "missing_tokens": [
+        "DEVICENET",
+        "从",
+        "控",
+        "板"
+      ],
+      "suggest_refine_pages": [
+        233
+      ],
+      "text_preview": "B-64605CM/01 \n \n2.控制单元的硬件 \n- 215 - \n2.2 \n硬件概要 \n2.2.1 \n显示器一体型控制单元的概要 \n \n无选项插槽 \n或 \n带有选项2 插槽 \n \n基本系统 \n选项 \n·用于CNC 控制的CPU \n·电源 \n·轴控制功能 \n·MDI 接口 \n·I/O Link i 控制功能 \n·模拟输出 \n·位置编码器 \n·PMC 控制功能 \n·高速跳转（HDI） \n·RS-232C 接口 \n·存储卡接口 \n·USB 接口 \n·以太网功能 \n \n快速以太"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "PMC 梯形图",
+      "page_no": 598,
+      "page_score": 10.220757780542984,
+      "block_count": 0,
+      "missing_tokens": [
+        "PMC",
+        "梯",
+        "形",
+        "图"
+      ],
+      "suggest_refine_pages": [
+        598
+      ],
+      "text_preview": "A.报警列表 \n附录 \nB-64605CM/01 \n- 580 - \nA.2 \n报警列表(PMC) \nA.2.1 \n显示在PMC报警画面的信息 \n这是PMC 报警画面上所显示的PMC 报警信息列表。 \n信息 \n故障位置和处理办法 \n内容 \nER01 PROGRAM DATA ERROR \n(1)  重新输入顺序程序 \n(2)  在重新输入后仍然发生错误时，\n可能是由于硬件故障，请与我公\n司联系 \n顺序程序非法。 \nER02 PROGRAM SIZE OVER \n(1) 减少顺"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "PMC 梯形图",
+      "page_no": 386,
+      "page_score": 10.035343031805372,
+      "block_count": 0,
+      "missing_tokens": [
+        "PMC",
+        "梯",
+        "形",
+        "图"
+      ],
+      "suggest_refine_pages": [
+        386
+      ],
+      "text_preview": "7.嵌入式以太网功能 \n \nB-64605CM/01 \n- 368 - \n使用控制用PMC 地址时（简易模式） \n下面就在梯形程序中通过简易模式使用控制用PMC 地址的情形进行说明。 \n \n注释 \n \n可以设定PMC 地址作为控制用，可以设定宏变量作为发送用。请注意，此时从梯形程序无法辨明发送的宏变\n量是哪个时机读出的值。 \n \n在以下说明中，控制用/发送用都以PMC 地址的情形示例。 \n \n控制用PMC 地址的信号说明 \n下面就为执行CNC 主导信息通知功能的控制用PMC "
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "SP9137 DEVICE COMMUNICATION ERROR",
+      "page_no": 607,
+      "page_score": 9.627450113743713,
+      "block_count": 0,
+      "missing_tokens": [
+        "SP9137",
+        "DEVICE",
+        "COMMUNICATION",
+        "ERROR"
+      ],
+      "suggest_refine_pages": [
+        607
+      ],
+      "text_preview": "B-64605CM/01 \n附录 \nA.报警列表 \n- 589 - \nSYS_ALM197 的错误信息（PMC 一般） \n \nSYS_ALM196 的错误信息(PMC 监控) \n信息 \n故障位置和处理办法 \n内容 \nPC073 WATCH-DOG \nALARM(CNC<->PMC) \n-----< ERROR POSITION >----- \nMAIN BOARD \n----------------------------------------- \n可能是由于主板不良所致。"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "FSSB LINE DATA ERROR",
+      "page_no": 599,
+      "page_score": 9.3735239319066,
+      "block_count": 0,
+      "missing_tokens": [
+        "FSSB",
+        "LINE",
+        "DATA",
+        "ERROR"
+      ],
+      "suggest_refine_pages": [
+        599
+      ],
+      "text_preview": "B-64605CM/01 \n附录 \nA.报警列表 \n- 581 - \n信息 \n故障位置和处理办法 \n内容 \nER36 TOO MUCH INPUT DATA IN \nGROUP(CHn Gxx) \n（注释1）（注释3） \n减少xx 组的输入数据数 \nI/O Link 的xx 组的输入数据数过多\n(33byte 以上)。 \n或者超出了I/O Link i 的xx 组的输入\n数据数(标准为65byte，安全I/O 在\n29byte 以上)。 \n超出的数据无效。 \nER37 TOO"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "SP9137 DEVICE COMMUNICATION ERROR",
+      "page_no": 640,
+      "page_score": 8.97400266692586,
+      "block_count": 0,
+      "missing_tokens": [
+        "SP9137",
+        "DEVICE",
+        "COMMUNICATION",
+        "ERROR"
+      ],
+      "suggest_refine_pages": [
+        640
+      ],
+      "text_preview": "C.引导系统 \n附录 \nB-64605CM/01 \n- 622 - \nC.3 \n错误信息和处理方法一览 \n此节介绍错误信息和发生该错误时的处理方法。下面的错误信息按照字母顺序排列。 \n \n表C.3 (a) \n \n信息 \n含义与处理方法 \nD \nDEVICE ERROR (xxxx) \n试图清除FLASH ROM 上的某一区域而失败。暂时断开电\n源，然后重新启动。尝试几次均显示相同信息时，有可能是\nFLASH ROM 模块损坏。更换FLASH ROM 模块。 \nF \nFILE "
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "SP9137 DEVICE COMMUNICATION ERROR",
+      "page_no": 608,
+      "page_score": 8.970534982218421,
+      "block_count": 0,
+      "missing_tokens": [
+        "SP9137",
+        "DEVICE",
+        "COMMUNICATION",
+        "ERROR"
+      ],
+      "suggest_refine_pages": [
+        608
+      ],
+      "text_preview": "A.报警列表 \n附录 \nB-64605CM/01 \n- 590 - \n信息 \n故障位置和处理办法 \n内容 \nPC051 I/O LINK ER2 CHn:xx:yy:ww:vv \nCOMMUNICATION ALARM AT CHn  \n-----< ERROR POSITION >----- \nCHn  \n----------------------------------------- \n(1) 使用I/O Unit-MODEL A 时，虽\n然分配了基板扩展，但却没有连\n"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "FSSB LINE DATA ERROR",
+      "page_no": 598,
+      "page_score": 8.934052149146714,
+      "block_count": 0,
+      "missing_tokens": [
+        "FSSB",
+        "LINE",
+        "DATA",
+        "ERROR"
+      ],
+      "suggest_refine_pages": [
+        598
+      ],
+      "text_preview": "A.报警列表 \n附录 \nB-64605CM/01 \n- 580 - \nA.2 \n报警列表(PMC) \nA.2.1 \n显示在PMC报警画面的信息 \n这是PMC 报警画面上所显示的PMC 报警信息列表。 \n信息 \n故障位置和处理办法 \n内容 \nER01 PROGRAM DATA ERROR \n(1)  重新输入顺序程序 \n(2)  在重新输入后仍然发生错误时，\n可能是由于硬件故障，请与我公\n司联系 \n顺序程序非法。 \nER02 PROGRAM SIZE OVER \n(1) 减少顺"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "FSSB LINE DATA ERROR",
+      "page_no": 498,
+      "page_score": 8.353982324755071,
+      "block_count": 0,
+      "missing_tokens": [
+        "FSSB",
+        "LINE",
+        "DATA",
+        "ERROR"
+      ],
+      "suggest_refine_pages": [
+        498
+      ],
+      "text_preview": "10.故障排除步骤 \n \nB-64605CM/01 \n- 480 - \n \n SERIES 0I DXXX \n \nSYS_ALM199 NON MASK INTERRUPT \n \nOTHER-CPU \n \n2010/04/18 12:00:00 \n \nPROGRAM COUNTER  : _________ \n \nACT TASK         : _________ \n \nACCESS ADDRESS   : ____-____ \n \nACCESS DATA      :"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "FSSB LINE DATA ERROR",
+      "page_no": 609,
+      "page_score": 8.209440035035605,
+      "block_count": 0,
+      "missing_tokens": [
+        "FSSB",
+        "LINE",
+        "DATA",
+        "ERROR"
+      ],
+      "suggest_refine_pages": [
+        609
+      ],
+      "text_preview": "B-64605CM/01 \n附录 \nA.报警列表 \n- 591 - \n信息 \n故障位置和处理办法 \n内容 \nPC055  I/O LINK I  \nI/O LINK I SENDING DATA FAILURE \n-----< ERROR POSITION >----- \nCHx / CNC <-> UNIT1(GROUP0) \nCNC    : MAIN BOARD \nUNIT1   : “单元名称”(注释1) \n------------------------------"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "Modbus communication paths",
+      "page_no": 411,
+      "page_score": 6.95000766482368,
+      "block_count": 0,
+      "missing_tokens": [
+        "MODBUS",
+        "COMMUNICATION",
+        "PATHS"
+      ],
+      "suggest_refine_pages": [
+        411
+      ],
+      "text_preview": "B-64605CM/01 \n \n7.嵌入式以太网功能 \n- 393 - \n显示记录画面 \n步骤 \n1 \n按下功能键\n。 \n2 \n按下软键［内嵌日志］，出现用于内置以太网端口的“记录画面”。按下［PCMCIA 日志］，出现用于PCMCIA 以\n太网卡的“记录画面”。（没有软键时，按下继续菜单键。） \n \n \n记录画面 \n \n最新的错误记录显示在画面的最上面。错误记录的右边为发生该错误时的日期和时刻。日期和时刻的显示格式以\n“MMM.DD  hh:mm:ss”显示月（MMM）日（"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "Modbus communication paths",
+      "page_no": 233,
+      "page_score": 6.0108979844527095,
+      "block_count": 0,
+      "missing_tokens": [
+        "MODBUS",
+        "COMMUNICATION",
+        "PATHS"
+      ],
+      "suggest_refine_pages": [
+        233
+      ],
+      "text_preview": "B-64605CM/01 \n \n2.控制单元的硬件 \n- 215 - \n2.2 \n硬件概要 \n2.2.1 \n显示器一体型控制单元的概要 \n \n无选项插槽 \n或 \n带有选项2 插槽 \n \n基本系统 \n选项 \n·用于CNC 控制的CPU \n·电源 \n·轴控制功能 \n·MDI 接口 \n·I/O Link i 控制功能 \n·模拟输出 \n·位置编码器 \n·PMC 控制功能 \n·高速跳转（HDI） \n·RS-232C 接口 \n·存储卡接口 \n·USB 接口 \n·以太网功能 \n \n快速以太"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "Modbus communication paths",
+      "page_no": 499,
+      "page_score": 5.267080801971387,
+      "block_count": 0,
+      "missing_tokens": [
+        "MODBUS",
+        "COMMUNICATION",
+        "PATHS"
+      ],
+      "suggest_refine_pages": [
+        499
+      ],
+      "text_preview": "B-64605CM/01 \n \n10.故障排除步骤 \n- 481 - \n系统报警196(PMC监控) \n系PMC 监控的系统报警。有关报警的内容，请参阅“附录A.2.2 PMC 系统报警信息”。 \n \n显示例 \n \n SERIES 0I DXXX \n \nSYS_ALM196 PMC WATCH DOG ALARM \n \nMAIN BOARD \n \n2010/04/18 12:00:00 \n \nEMBEDDED SOFTWARE SYSTEM ERROR:(40xx-xxxx)"
+    },
+    {
+      "type": "pages_text_coverage_missing",
+      "query": "SV20",
+      "page_no": 327,
+      "page_score": 5.134212149664642,
+      "block_count": 0,
+      "missing_tokens": [
+        "SV20"
+      ],
+      "suggest_refine_pages": [
+        327
+      ],
+      "text_preview": "B-64605CM/01 \n \n4.其他单元的维护 \n- 309 - \n 注意 \n· 电池，可使用市面上出售的1 号碱性干电池（LR20，4 节）。A06B-6050-K061 是由我公司作为选项提供的电\n池（4 节组）。 \n· 电池要4 节都换上新的。新旧电池混合使用时，会导致绝对脉冲编码器内的绝对位置信息丢失。 \n \n4.6.4 \n伺服放大器内置电池的更换 \n按照如下步骤更换专用的锂电池。 \n① 拆除电池用盖板。 \n② 更换专用的锂电池。 \n③ 安装电池用盖板。 \n \n "
+    }
+  ]
+}

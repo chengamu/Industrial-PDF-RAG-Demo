@@ -13,7 +13,11 @@ wheels/
 
 # Generated RAG artifacts
 data/raw/
+!data/raw/
+!data/raw/**
 data/parsed/
+!data/parsed/
+!data/parsed/**
 data/images/*
 !data/images/300220_FANUC0iMF/
 !data/images/300220_FANUC0iMF/*.png
@@ -22,4 +26,8 @@ data/blocks/*
 data/blocks/300220_FANUC0iMF/*
 !data/blocks/300220_FANUC0iMF/final_blocks_ocr_fixed.jsonl
 data/index/
+!data/index/
+!data/index/**
 data/refine/
+!data/refine/
+!data/refine/**
